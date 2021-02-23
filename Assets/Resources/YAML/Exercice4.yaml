@@ -1,0 +1,29 @@
+---
+block:
+- emma:
+  - On reprend ! Ça te dit qu’on fasse un autre jeu ?
+  - 'Celui-ci est plus marrant, il est avec des images. Le jeu se passe comme ça :
+    Je vais te proposer de regarder quelques images et toi tu dois me dire quelle
+    émotion tu reconnais.'
+  - C’est parti !
+- emma:
+  - Choisis une image et dis-moi quelle est l’émotion.
+  - Très bien
+  - Non ce n'est pas ça, ça c'est de la joie. Essaye une autre image
+  - Non, ce n'est pas vraiment ça. ça c'est de la tristesse, Essaye une autre image
+  - Non, ce n'est pas tout à fait ça, ça c'est la surprise. Essaye une autre image
+  - Non, ce n'est pas tout à fait ça, ça c'est la colère. Essaye une autre image
+  - Non, ce n'est pas tout à fait ça, ça c'est la peur. Essaye une autre image
+  - Non, ce n'est pas tout à fait ça, ça c'est du dégout. Essaye une autre image
+  - RELAUNCH
+  choix:
+  - Bonne réponse
+  - Mauvaise réponse - Joie
+  - Mauvaise réponse - Tristesse
+  - Mauvaise réponse - Surprise
+  - Mauvaise réponse - Colère
+  - Mauvaise réponse - Peur
+  - Mauvaise réponse - Dégout
+  - Absence de réponse
+  score:
+  - 1

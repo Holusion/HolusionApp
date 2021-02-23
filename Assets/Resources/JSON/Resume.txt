@@ -1,0 +1,8 @@
+Introduction
+Jeu 1 – Reconnaissance faciale d’émotion – Unique proposition
+Jeu 2 - Imitation d’émotions spontanée
+Jeu 3 - Connaissance des émotions 
+Jeu 4 - Imitation d’émotions proposées
+Jeu 5 - Reconnaissance faciale d’émotion – Multiple proposition
+Jeu 6 - Intensité des émotions - Comparaison
+Conclusion
