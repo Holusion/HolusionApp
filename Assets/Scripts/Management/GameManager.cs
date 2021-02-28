@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    //all the information about the current student being tested
     public static Student currentStudentSet;
-    //public static string currentStudent;
-    public static int scoreParticipation;
-    public static int numberOfTotalBlockInSession;
-    private TrainingManager[] stages;
+
+    //public static int scoreParticipation;
+    //public static int numberOfTotalBlockInSession;
+    //private TrainingManager[] stages;
     public static bool canLoad;
 
     public string studentName;
@@ -16,7 +17,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         currentStudentSet = new Student { name = "#None" };
-        stages = GetComponentsInChildren<TrainingManager>();
+        //stages = GetComponentsInChildren<TrainingManager>();
         StartCoroutine(LateStart());
 
     }
@@ -31,7 +32,7 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        studentName = currentStudentSet.name;
+        //studentName = currentStudentSet.name;
     }
 
 }

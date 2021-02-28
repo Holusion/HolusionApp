@@ -8,11 +8,95 @@
     },
     {
       "emma": [
-       "<i><color=blue>L'enfant doit deviner l'émotion que lui montre Emma : $randomEmotion</color></i>",
+       "<i><color=blue>L’enfant doit avoir imité « HEUREUX ou similaire ».</color></i>",
         "Très bien",
-        "Non ce n'est pas tout à fait ça. Je vais t'aider, c'était $currentEmotion",
-        "Tu ne sais pas ? Je vais t'aider, c'était $currentEmotion",
-	"RELAUNCH"
+        "Non ce n'est pas tout à fait ça.",
+        "Tu ne sais pas ? Je vais t'aider"
+      ],
+      "choix": [
+	"Bonne réponse",
+        "Mauvaise réponse",
+        "Absence de réponse"
+      ],
+      "score": [1]
+    },
+    {
+      "emma": [
+       "<i><color=blue>L’enfant doit avoir imité « CALME ou similaire ».</color></i>",
+        "Très bien",
+        "Non ce n'est pas tout à fait ça.",
+        "Tu ne sais pas ? Je vais t'aider"
+      ],
+      "choix": [
+	"Bonne réponse",
+        "Mauvaise réponse",
+        "Absence de réponse"
+      ],
+      "score": [1]
+    },
+    {
+      "emma": [
+       "<i><color=blue>L’enfant doit avoir imité « TRISTE ou similaire ».</color></i>",
+        "Très bien",
+        "Non ce n'est pas tout à fait ça.",
+        "Tu ne sais pas ? Je vais t'aider"
+      ],
+      "choix": [
+	"Bonne réponse",
+        "Mauvaise réponse",
+        "Absence de réponse"
+      ],
+      "score": [1]
+    },
+    {
+      "emma": [
+       "<i><color=blue>L’enfant doit avoir imité « ÉNERVÉ ou similaire ».</color></i>",
+        "Très bien",
+        "Non ce n'est pas tout à fait ça.",
+        "Tu ne sais pas ? Je vais t'aider"
+      ],
+      "choix": [
+	"Bonne réponse",
+        "Mauvaise réponse",
+        "Absence de réponse"
+      ],
+      "score": [1]
+    },
+    {
+      "emma": [
+       "<i><color=blue>L’enfant doit avoir imité « EFFRAYÉ ou similaire ».</color></i>",
+        "Très bien",
+        "Non ce n'est pas tout à fait ça.",
+        "Tu ne sais pas ? Je vais t'aider"
+      ],
+      "choix": [
+	"Bonne réponse",
+        "Mauvaise réponse",
+        "Absence de réponse"
+      ],
+      "score": [1]
+    },
+    {
+      "emma": [
+       "<i><color=blue>L’enfant doit avoir imité « SURPRIS ou similaire ».</color></i>",
+        "Très bien",
+        "Non ce n'est pas tout à fait ça. Je vais t'aider",
+        "Tu ne sais pas ? Je vais t'aider"
+      ],
+      "choix": [
+	"Bonne réponse",
+        "Mauvaise réponse",
+        "Absence de réponse"
+      ],
+      "score": [1]
+    },
+    {
+      "emma": [
+       "<i><color=blue>L’enfant doit avoir imité « FIER ou similaire ».</color></i>",
+        "Très bien",
+        "Non ce n'est pas tout à fait ça. Je vais t'aider",
+        "Tu ne sais pas ? Je vais t'aider",
+	"END"
       ],
       "choix": [
 	"Bonne réponse",

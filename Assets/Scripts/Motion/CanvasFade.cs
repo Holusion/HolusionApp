@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 
 [RequireComponent(typeof(CanvasGroup))]
-public class CanvasFade : MonoBehaviour
+public class CanvasFade : PanelSettings
 {
     public float duration = 0.5f;
 
@@ -24,9 +24,10 @@ public class CanvasFade : MonoBehaviour
         if (duration == 0)
             duration = 0.01f;
     }
-    public void Show()
+    public override void Activate()
     {
-        gameObject.SetActive(true);
+        base.Activate();
+        //gameObject.SetActive(true);
         //when canvas becomes active
         desiredAlpha = 1;
         if (canvas != null)
@@ -39,12 +40,13 @@ public class CanvasFade : MonoBehaviour
     {
         currentAlpha = Mathf.MoveTowards(currentAlpha, desiredAlpha,Time.deltaTime/duration);
         canvas.alpha = currentAlpha;
-        if (canvas.alpha <= 0)
-            gameObject.SetActive(false);
+        //if (canvas.alpha <= 0)
+            //gameObject.SetActive(false);
     }
 
-    public void Hide()
+    public override void Deactivate()
     {
+        base.Deactivate();
         desiredAlpha = 0;
         // when exiting playmode I get a null reference, reason unknown
         if (canvas != null)
@@ -52,6 +54,7 @@ public class CanvasFade : MonoBehaviour
             canvas.interactable = false;
             canvas.blocksRaycasts = false;
         }
+
     }
 
 }

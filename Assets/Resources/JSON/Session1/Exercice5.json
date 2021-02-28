@@ -9,7 +9,7 @@
     },
     {
       "emma": [
-       "Choisis une image et dis-moi quelle est l’émotion.",
+       "<i><color=blue> Sélectionner la réponse de l’enfant. L’enfant a choisi une carte et a nommé l’émotion associée à la carte. Cette réponse était une :</color></i>",
         "Très bien",
         "Non ce n'est pas ça, ça c'est de la joie. Essaye une autre image",
         "Non, ce n'est pas vraiment ça. ça c'est de la tristesse, Essaye une autre image",

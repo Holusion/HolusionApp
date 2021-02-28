@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// OBSOLETE
+
 public class RadialStatInfos : MonoBehaviour
 {
     public Image bar;

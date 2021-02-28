@@ -8,7 +8,7 @@
 
     {
       "emma": [
-       "<i><color=blue>Quel emotion fait l'enfant ?</color></i>",
+       "<i><color=blue>Sélectionner l’expression émotionnelle imitée par l’enfant (ou similaire). Si vous n’êtes pas sûr∙e de l’émotion imitée par l’enfant, appuyer sur « Je ne sais pas »</color></i>",
         "Tu es heureux !",
         "Tu es triste !",
         "Tu es dégouté !",
@@ -16,16 +16,15 @@
         "Tu es fâché!",
         "Tu es surpris !",
         "Je ne sais pas",
-        "Montre moi une autre",
 	"RELAUNCH"
       ],
       "choix": [
-        "Joie",
-        "Tristesse",
-        "Dégout",
-        "Peur",
-	"Colère",
-	"Surprise",
+        "Heureux∙se",
+        "Triste",
+        "Dégouté∙e",
+        "Effrayé∙e",
+	"Fâché∙e",
+	"Surpris∙e",
 	"Je ne sais pas"
       ],
       "score": [1,2,3,4,5,6]

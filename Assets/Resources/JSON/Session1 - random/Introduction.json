@@ -1,0 +1,67 @@
+{
+  "block": [
+    {
+      "emma": [
+        "Salut, Comment est-ce que tu t'appelles ?",
+        "Ah Bonjour $studentname",
+        "$smileface"
+      ],
+      "choix": [
+        "L'enfant a répondu",
+        "L'enfant n'a pas répondu"
+      ],
+      "score": [
+        1
+      ]
+    },
+    {
+      "emma": [
+		"<i><color=blue>Emma est en train de parler</color></i>"
+  	      ]
+    },
+    {
+      "emma": [
+        "Dis-moi, penses-tu que les émotions sont importantes ?",
+        "Ben oui !",
+        "Mais si !",
+        ""
+      ],
+      "choix": [
+        "Oui",
+        "Non",
+        "Inadequat/Absent"
+      ],
+      "score": [
+        1,
+        2
+      ]
+    },
+    {
+      "emma": [
+		"<i><color=blue>Emma est en train de parler</color></i>"
+  	      ]
+    },
+    {
+      "emma": [
+        "Est-ce que tu fais parfois des choses qui t’aident à te calmer ? Si oui, qu’est-ce que tu fais ?",
+        "Ah oui ! Ça c’est une bonne idée !",
+        "ooooh",
+        "$confused face"
+      ],
+      "choix": [
+        "Bonne réponse",
+        "Mauvaise réponse",
+        "Absente/inadéquate"
+      ],
+      "score": [
+        1,
+        2
+      ]
+    },
+    {
+      "emma": [
+		"<i><color=blue>Emma est en train de parler</color></i>", "END"
+  	      ]
+    }
+  ]
+}

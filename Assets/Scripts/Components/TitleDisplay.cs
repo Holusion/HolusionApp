@@ -24,6 +24,8 @@ public class TitleDisplay : MonoBehaviour
     {
         set
         {
+            if (value == "#StudentName")
+                value = GameManager.currentStudentSet.name;
             Titlefield.text = value;
         }
     }

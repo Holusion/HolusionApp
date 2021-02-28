@@ -27,7 +27,7 @@ public class NextOnClick : MonoBehaviour
 
     void OnClick()
     {
-        MenuManager.Actual.ChangeToPanel(nextPanel);
+        ScreenManager.Actual.ChangeToPanel(nextPanel);
     }
 
 

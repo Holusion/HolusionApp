@@ -8,7 +8,7 @@ public enum TypeOfEmotion { joie, tristesse, dégoût, surprise, colère, peur }
 
 public enum TypeOfSession { Session1, Session2, Session3, Session4, Session5, Session6, Session7 };
 
-public enum TypeOfStage { Introduction, Exercice1, Exercice2, Exercice3, Exercice4, Exercice5, Pause, Conclusion };
+public enum TypeOfStage { Introduction, Pause, Conclusion, Exercice1, Exercice2, Exercice3, Exercice4, Exercice5, Exercice6 };
 
 [Serializable]
 public class Stage
