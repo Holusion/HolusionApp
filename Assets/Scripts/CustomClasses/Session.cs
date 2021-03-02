@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public enum TypeOfEmotion { joie, tristesse, dégoût, surprise, colère, peur }
+public enum TypeOfEmotion { joie, tristesse, dÃ©goÃ»t, surprise, colÃ¨re, peur }
 
 public enum TypeOfSession { Session1, Session2, Session3, Session4, Session5, Session6, Session7 };
 
