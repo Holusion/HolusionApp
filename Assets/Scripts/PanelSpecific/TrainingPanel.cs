@@ -134,7 +134,7 @@ public class TrainingPanel : PanelSettings
         ResetEmotionList();
 
         // get the number of emma lines
-        int emmaLines = 0;
+        /*int emmaLines = 0;
         int choicesLines = 0;
         foreach (Block bl in stage.block)
         {
@@ -148,7 +148,7 @@ public class TrainingPanel : PanelSettings
             }
             choicesLines -= 1;
         }
-        emmaLines -= 1 + choicesLines;
+        emmaLines -= 1 + choicesLines;*/
        // ProgressionSlider.Current.UpdateMaxValue(emmaLines);
 
         DisplayLine();
@@ -180,10 +180,13 @@ public class TrainingPanel : PanelSettings
 
         // Display the text from Emma
         emmaSpeech = "#error";
-        emmaSpeech = currentBlock.emma[emmaIndex];
+        emmaSpeech = currentBlock.text;
         Debug.LogWarning("emma speech is : " + emmaSpeech);
+
+        step++;
+        
         // line checker
-        switch (emmaSpeech)
+        /*switch (emmaSpeech)
         {
             case "END":
                 emmaSpeech = "END you should not see this";
@@ -227,7 +230,7 @@ public class TrainingPanel : PanelSettings
                     DisplayLine();
                 }
                 return;
-        }
+        }*/
 /*
 //--------------- IF END OF STAGE -----------------------------------------------------------------------
         if (emmaSpeech == "END")
@@ -268,6 +271,7 @@ public class TrainingPanel : PanelSettings
 
 //--------------- STRING REPLACEMENTS--------------------------------------------       
 
+/*
         if (emmaSpeech.Contains("$randomEmotion"))
             emmaSpeech = emmaSpeech.Replace("$randomEmotion", NewRandomEmotion());
         if (emmaSpeech.Contains("$Emotion"))
@@ -289,7 +293,7 @@ public class TrainingPanel : PanelSettings
             print("force end");
             currentBlock.emma[currentBlock.emma.Count-1] = "END";
             emmaSpeech = emmaSpeech.Replace("FORCEEND", "");
-        }
+        }*/
 
         emmaField.text = emmaSpeech;
 
@@ -298,7 +302,9 @@ public class TrainingPanel : PanelSettings
         // the first line of emma always bring the questions, the next lines always bring next
 
         SpawnButtons();
+        //DisplayLine();
     }
+
 
 //--------------- SPAWN BUTTONS --------------------------------------------------------------------------------------------- 
     private void SpawnButtons()
@@ -306,7 +312,7 @@ public class TrainingPanel : PanelSettings
         foreach (GameObject button in listOfInstantiedButtons)
             Destroy(button);
 
-        int choicesCount = currentBlock.choix.Count;
+        int choicesCount = currentBlock.choices.Length;
         // if first line of emma for each block and there is a choice key
 
         // set the vertical layout as a parent
@@ -330,7 +336,7 @@ public class TrainingPanel : PanelSettings
                 ChoiceButton newChoice = new ChoiceButton
                 {
                     id = i + 1,
-                    text = currentBlock.choix[i]
+                    text = currentBlock.choices[i].btn
                 };
                 //newChoice.id = i+1;
                 //newChoice.text = "F" + (i+1) + " : " + currentBlock.choix[i];
@@ -345,7 +351,7 @@ public class TrainingPanel : PanelSettings
             // spawn debug button to skip
             ChoiceButton debugSkip = new ChoiceButton
             {
-                id = currentBlock.choix.Count + step,
+                id = currentBlock.choices.Length + step,
                 text = "DEV : Ignorer"
             };
             SpawnDebugButton(debugSkip);
@@ -355,7 +361,7 @@ public class TrainingPanel : PanelSettings
                 ChoiceButton endPause = new ChoiceButton
                 {
                     text = "Finir la Pause",
-                    id = currentBlock.choix.Count + step
+                    id = currentBlock.choices.Length + step
                 };
                 SpawnChoices(endPause);
             }
@@ -394,7 +400,8 @@ public class TrainingPanel : PanelSettings
         // -1 as id means a debug button as been click to go back
         // if emmaindex is 1 or 2 emma is displaying an answer, I can make it to go back to the specific answer so we go back twice to the question
         // we can only go back to the common text
-        if (id == -1)
+
+        /*if (id == -1)
         {
             id = 0;
             if (step > 0)
@@ -408,15 +415,16 @@ public class TrainingPanel : PanelSettings
                 sequenceIndex--;
                 LoadJSON();
             }
-        }
-
+        }*/
+        emmaSpeech = currentBlock.choices[id].res[0].text;
 
         emmaIndex = id;
         // check for score
         //if there is a score in the block 
-        if (stage.block[blockIndex].score.Count > 0)
+        if (stage.block[blockIndex].choices[id].score > 0)
         {
-            for (int i = 0; i < stage.block[blockIndex].score.Count; i++)
+            score++;
+            /*for (int i = 0; i < stage.block[blockIndex].score.Count; i++)
             {
                 //if score id match answer id
                 if (id == stage.block[blockIndex].score[i])
@@ -429,19 +437,19 @@ public class TrainingPanel : PanelSettings
                         score++;
                 }
                     
-            }
+            }*/
         }
 
 
 
         // if you get to the last emma line
-        if (emmaIndex > currentBlock.emma.Count-1)
+        /*if (emmaIndex > currentBlock.emma.Count-1)
         {
             step = 0;
             emmaIndex = 0;
             blockIndex++;
         }
-        NextLine();
+        NextLine();*/
         //ProgressionSlider.Current.UpdateValue();
     }
 
@@ -454,7 +462,7 @@ public class TrainingPanel : PanelSettings
             normalizedTime += Time.deltaTime / (duration);
             yield return null;
         }
-        OnClick(currentBlock.choix.Count + step);
+        OnClick(currentBlock.choices.Length + step);
     }
 
     string NewEmotion()
