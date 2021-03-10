@@ -816,7 +816,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Masculin
+  m_Text: "Non-pr\xE9cis\xE9"
 --- !u!1 &3573582436953712914
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,11 +1762,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Masculin
+    - m_Text: "Non-pr\xE9cis\xE9"
       m_Image: {fileID: 0}
     - m_Text: Feminin
       m_Image: {fileID: 0}
-    - m_Text: "Non-pr\xE9cis\xE9"
+    - m_Text: Masculin
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2121,7 +2121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 599594099479505045, guid: ab9c6a02691009b4f976db8fc6d0bf60, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -336.4048
+      value: -259.0072
       objectReference: {fileID: 0}
     - target: {fileID: 767588247896031936, guid: ab9c6a02691009b4f976db8fc6d0bf60, type: 3}
       propertyPath: m_Name
