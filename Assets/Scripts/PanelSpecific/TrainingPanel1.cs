@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using System.IO;
 using System.Linq;
 
-public class TrainingPanel : PanelSettings
+public class TrainingPanel1 : PanelSettings
 {
     //panel to show when the session has ended
     public PanelSettings panelWhenEnd;
@@ -130,38 +130,18 @@ public class TrainingPanel : PanelSettings
 
     private void Load()
     {
-        // reset the emotion list 
-        ResetEmotionList();
-
-        // get the number of emma lines
-        /*int emmaLines = 0;
-        int choicesLines = 0;
-        foreach (Block bl in stage.block)
-        {
-            foreach (string s in bl.emma)
-            {
-                emmaLines++;
-            }
-            foreach (string s in bl.choix)
-            {
-                choicesLines++;
-            }
-            choicesLines -= 1;
-        }
-        emmaLines -= 1 + choicesLines;*/
-       // ProgressionSlider.Current.UpdateMaxValue(emmaLines);
 
         DisplayLine();
     }
 
     public void NextLine()
     {
-        /*if (blockIndex == stage.block.Length)
+        if (blockIndex == stage.block.Length)
         {
             sequenceIndex++;
             LoadJSON();
         }
-        else*/
+        else
             DisplayLine();
     }
 
@@ -170,9 +150,6 @@ public class TrainingPanel : PanelSettings
     {
         foreach (Button butt in GetComponentsInChildren<Button>())
             Destroy(butt);
-
-
-
 
         StopAllCoroutines(); // stop the autonext
 
@@ -184,126 +161,15 @@ public class TrainingPanel : PanelSettings
         Debug.LogWarning("emma speech is : " + emmaSpeech);
 
         step++;
-        
-        // line checker
-        /*switch (emmaSpeech)
-        {
-            case "END":
-                emmaSpeech = "END you should not see this";
-                sequenceIndex++;
-                LoadJSON();
-                return;
-                //break;
-
-            case "RELAUNCH":
-
-                if (emotionList.Count == 0)
-                {
-                    ResetEmotionList();
-                    cycle++;
-                }
-                if (currentStage != TypeOfStage.Exercice1)
-                    cycle++;
-                if (cycle > maxCycle)
-                {
-                    sequenceIndex++;
-                    LoadJSON();
-                    return;
-                   // MenuManager.Actual.ChangeToNext();
-                }
-                step = 0;
-                emmaIndex = 0;
-                NextLine();
-                return;
-
-            case "SKIPIFDONE":
-                if (emotionList.Count == 0 && cycle == maxCycle)
-                {
-                    sequenceIndex++;
-                    LoadJSON();
-                    //MenuManager.Actual.ChangeToNext();
-                }
-                else
-                {
-                    emmaIndex++;
-                    step++;
-                    DisplayLine();
-                }
-                return;
-        }*/
-/*
-//--------------- IF END OF STAGE -----------------------------------------------------------------------
-        if (emmaSpeech == "END")
-        {
-            emmaSpeech = "";
-            // OBSOLETE MenuManager.Actual.ChangeToNext();
-            sequenceIndex++;
-            LoadJSON();
-
-        }
-//--------------- IF END OF STAGE FOR CYCLIC EXERCICES-----------------------------------------------------------------------
-        if (emmaSpeech == "RELAUNCH")
-        {
-            if (emotionList.Count == 0)
-            {
-                ResetEmotionList();
-                cycle++;
-            }
-            if (currentStage != TypeOfStage.Exercice1)
-                cycle++;
-            if (cycle > maxCycle)
-                MenuManager.Actual.ChangeToNext();
-            step = 0;
-            emmaIndex = 0;
-            
-        }
-        if (emmaSpeech == "SKIPIFDONE")
-        {
-            if (emotionList.Count == 0 && cycle == maxCycle)
-                MenuManager.Actual.ChangeToNext();
-            else
-            {
-                emmaIndex++;
-                step++;
-            }
-        }
-        emmaSpeech = currentBlock.emma[emmaIndex];*/
 
 //--------------- STRING REPLACEMENTS--------------------------------------------       
 
-/*
-        if (emmaSpeech.Contains("$randomEmotion"))
-            emmaSpeech = emmaSpeech.Replace("$randomEmotion", NewRandomEmotion());
-        if (emmaSpeech.Contains("$Emotion"))
-            emmaSpeech = emmaSpeech.Replace("$Emotion", NewEmotion());
-        if (emmaSpeech.Contains("$currentEmotion"))
-            emmaSpeech = emmaSpeech.Replace("$currentEmotion", currentEmotion.ToString());
-        if (emmaSpeech.Contains("$studentname"))
-            emmaSpeech = emmaSpeech.Replace("$studentname", GameManager.currentStudentSet.name);
-        if (emmaSpeech.Contains("$numberEmotion"))
-        {
-            //score++;
-            //emmaSpeech = emmaSpeech.Replace("$numberEmotion", GameManager.currentStudentSet.score1.ToString());
-            emmaSpeech = emmaSpeech.Replace("$numberEmotion",score.ToString());
-            //NextLine();
-            //return;
-        }
-        if (emmaSpeech.Contains("FORCEEND"))
-        {
-            print("force end");
-            currentBlock.emma[currentBlock.emma.Count-1] = "END";
-            emmaSpeech = emmaSpeech.Replace("FORCEEND", "");
-        }*/
-
         emmaField.text = emmaSpeech;
-
 
         // if there is any choices, display them, else display "Next"
         // the first line of emma always bring the questions, the next lines always bring next
 
         SpawnButtons();
-        blockIndex++;
-
     }
 
 
@@ -336,7 +202,7 @@ public class TrainingPanel : PanelSettings
             {
                 ChoiceButton newChoice = new ChoiceButton
                 {
-                    id = i + 1,
+                    id = i,
                     text = currentBlock.choices[i].btn
                 };
                 //newChoice.id = i+1;
@@ -347,12 +213,12 @@ public class TrainingPanel : PanelSettings
         // if it's not a choice, it's a sequence, emma is talking, no button to spawn expect the debug ones
         else
         {
-            step = 0;
+            step=0;
             
             // spawn debug button to skip
             ChoiceButton debugSkip = new ChoiceButton
             {
-                id = currentBlock.choices.Count + step,
+                id = currentBlock.choices.Count + 1,
                 text = "DEV : Ignorer"
             };
             SpawnDebugButton(debugSkip);
@@ -372,7 +238,7 @@ public class TrainingPanel : PanelSettings
                 duration = WordCount.GetWordCount(emmaSpeech); // will be obsolete and calculate from the audio file
                 skipCircle.GetComponent<SkipDialogueCircle>().time = duration; // 2f is to make it longer before changing to the audio file;
                 StartCoroutine(SkipDialogue(duration));
-                
+
             }
         }
 
@@ -385,7 +251,6 @@ public class TrainingPanel : PanelSettings
                 text = "DEV : retour"
             };
             SpawnDebugButton(debugBack);
-
         //}
     }
 
@@ -403,55 +268,38 @@ public class TrainingPanel : PanelSettings
         // if emmaindex is 1 or 2 emma is displaying an answer, I can make it to go back to the specific answer so we go back twice to the question
         // we can only go back to the common text
 
-        /*if (id == -1)
+        if (id == -1)
         {
             id = 0;
             if (step > 0)
                 step--;
-            if (emmaIndex > 0)
-                emmaIndex = 0;
             else if (blockIndex > 0)
+            {
                 blockIndex--;
+                NextLine();
+            } 
             else if (blockIndex == 0 && sequenceIndex > 0)
             {
                 sequenceIndex--;
                 LoadJSON();
             }
-        }*/
-        emmaSpeech = currentBlock.choices[0].res[0].text;
+        }
+        emmaSpeech = currentBlock.choices[id].res[0].text;
+        Debug.LogWarning("emma speech is : " + emmaSpeech);
 
-        emmaIndex = id;
+                
         // check for score
         //if there is a score in the block 
-        if (stage.block[blockIndex].choices[0].score > 0)
+        if (stage.block[blockIndex].choices[id].score > 0)
         {
             score++;
-            /*for (int i = 0; i < stage.block[blockIndex].score.Count; i++)
-            {
-                //if score id match answer id
-                if (id == stage.block[blockIndex].score[i])
-                {
-                    //update the last entry
-                    //GameManager.currentStudentSet.scores
-
-                    //GameManager.currentStudentSet.score1 ++;
-                    //if (currentStage == TypeOfStage.Exercice3)
-                        score++;
-                }
-                    
-            }*/
         }
 
+        step = 0;
+        SpawnButtons();
         blockIndex++;
         NextLine();
-        // if you get to the last emma line
-        /*if (emmaIndex > currentBlock.emma.Count-1)
-        {
-            step = 0;
-            emmaIndex = 0;
-            blockIndex++;
-        }
-        NextLine();*/
+
         //ProgressionSlider.Current.UpdateValue();
     }
 
@@ -464,32 +312,8 @@ public class TrainingPanel : PanelSettings
             normalizedTime += Time.deltaTime / (duration);
             yield return null;
         }
-        OnClick(currentBlock.choices.Count + step);
-    }
-
-    string NewEmotion()
-    {
-        // return emotionList[emotionIndex].ToString();
-        return "error";
-    }
-
-    // display a random new emotion
-    string NewRandomEmotion()
-    {
-        // get a random entry from the emotionList and remove it
-        TypeOfEmotion[] EmotionListasArray = emotionList.ToArray();
-        TypeOfEmotion randomEmotion = EmotionListasArray[Random.Range(0, EmotionListasArray.Length)];
-
-        currentEmotion = randomEmotion;
-        emotionList.Remove(randomEmotion);
-        return currentEmotion.ToString();
-    }
-    void ResetEmotionList()
-    {
-        // add every emotions to a list
-        emotionList.Clear();
-        foreach (TypeOfEmotion emotion in (TypeOfEmotion[])System.Enum.GetValues(typeof(TypeOfEmotion)))
-            emotionList.Add(emotion);
+        blockIndex++;
+        NextLine();
     }
 
     public int GetNumberOfBlock()
