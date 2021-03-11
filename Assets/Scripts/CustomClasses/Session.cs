@@ -20,7 +20,7 @@ public class Block
 {
     public string text;
     public string audio;
-    public Choices[] choices;
+    public List <Choices> choices = new List <Choices>();
     //public List<string> emma = new List<string>();
     //public List<string> choix = new List<string>();
     //public List<int> score = new List<int>();
@@ -30,7 +30,7 @@ public class Choices
 {
     public string btn;
     public int score;
-    public Emma[] res;
+    public List <Emma> res = new List <Emma>();
 }
 [Serializable]
 public class Emma
