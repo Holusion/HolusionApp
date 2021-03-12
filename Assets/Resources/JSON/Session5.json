@@ -1,0 +1,3292 @@
+{
+  "stages": [
+    {
+      "title": "5.1_Introduction",
+      "blocks": [
+        {
+          "text": "Salut !+",
+          "audio": "ER5-FR-1",
+          "gesture": "wave hello",
+          "face": "smile"
+        },
+        {
+          "text": "Comment vas-tu aujourd’hui ?",
+          "audio": "ER4-FR-2",
+          "face": "smile",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Super !",
+                  "audio": "ER4-FR-3",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Comme tu le sais, moi, je suis toujours en forme !",
+                  "audio": "ER4-FR-4",
+                  "gesture": "grin – wash teeth smile"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oh non !",
+                  "audio": "ER4-FR-5",
+                  "face": "sad"
+                },
+                {
+                  "text": "Je suis sure que la session d’aujourd’hui va t’aider à te sentir mieux.",
+                  "audio": "ER4-FR-6",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire... En tout cas.",
+                  "audio": "ER4-FR-7"
+                },
+                {
+                  "text": "Je suis sure que la session d’aujourd’hui te mettra de bonne humeur.",
+                  "audio": "ER4-FR-8",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "La dernière fois que nous nous sommes vus nous avons parlé du fait qu’il y a énormément d’émotions que nous pouvons avoir !",
+          "audio": "ER5-FR-9",
+          "face": "happy"
+        },
+        {
+          "text": "Si tu te souviens bien, je t’avais même préparé une roue avec plein d’émotions de différentes couleurs. Est-ce que tu as eu le temps de mieux regarder cette roue des émotions ?",
+          "audio": "ER5-FR-10",
+          "face": "happy",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Chouette !+",
+                  "audio": "ER5-FR-11",
+                  "face": "happy"
+                },
+                {
+                  "text": "yupi…+ [dance]",
+                  "audio": "ER5-FR-12",
+                  "gesture": "excited voice"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ça c’est dommage !+",
+                  "audio": "ER5-FR-13",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14",
+                  "gesture": "sad voice"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux pas me le dire ?! En tout cas…",
+                  "audio": "ER5-FR-7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Cette roue est importante. Elle peut t’aider à mieux connaître tout plein d’émotions qui peuvent exister. Dans cette roue, tu peux voir que les émotions changent d’un groupe à un autre et qu’elles peuvent être à la fois positives ou négatives en fonction de la personne qui les ressent ou, très important aussi, en fonction de la situation que la personne vit.",
+          "audio": "ER5-FR-15",
+          "face": "happy"
+        },
+        {
+          "text": "La dernière fois, nous avons aussi utilisé des cartes avec des exemples d’émotions qui étaient présentes sur la roue ! Est-ce que tu as eu le temps de mieux regarder ces cartes ?",
+          "audio": "ER5-FR-16",
+          "face": "smile",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Chouette !+",
+                  "audio": "ER5-FR-11",
+                  "face": "happy"
+                },
+                {
+                  "text": "yupi…+ [dance]",
+                  "audio": "ER5-FR-12",
+                  "gesture": "excited voice"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ça c’est dommage !+",
+                  "audio": "ER5-FR-13",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14",
+                  "gesture": "sad voice"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux pas me le dire ?! En tout cas…",
+                  "audio": "ER5-FR-7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sur ces cartes il y avait des photos de personnes qui comme toi peuvent avoir des émotions. Tu pouvais voir sur ces photos que les personnes faisaient des drôles de têtes pour exprimer leurs émotions.",
+          "audio": "ER5-FR-17",
+          "face": "confused"
+        },
+        {
+          "text": "Derrière chaque photo, il y avait toujours marqué l’émotion que cette personne était en train de ressentir. Il y avait aussi un exemple de pourquoi elle ressentait cette émotion.",
+          "audio": "ER5-FR-18",
+          "face": "smile"
+        },
+        {
+          "text": "Ces exemples expliquaient pourquoi les gens ont certaines émotions.  Après ce jeu, nous avions aussi parlé de situations un peu pareilles où toi aussi tu t’es senti comme eux. Est-ce que tu t’en souviens toujours ?",
+          "audio": "ER5-FR-19",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est bien ! Moi aussi je me souviens.+",
+                  "audio": "ER5-FR-20",
+                  "face": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est bien dommage que tu ne te souviennes pas.+",
+                  "audio": "ER5-FR-21",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Moi je m’en souviens !",
+                  "audio": "ER5-FR-22",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux pas me le dire ?! En tout cas…",
+                  "audio": "ER5-FR-7"
+                },
+                {
+                  "text": "Moi je m’en souviens !",
+                  "audio": "ER5-FR-22",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Aujourd’hui nous allons continuer à parler de tout plein d’émotions.",
+          "audio": "ER5-FR-23"
+        },
+        {
+          "text": "Nous allons voir que tout comme toi les autres personnes peuvent aussi ressentir des émotions – et que parfois ces émotions sont différentes de celles que toi tu ressens.",
+          "audio": "ER5-FR-24",
+          "face": "confused"
+        },
+        {
+          "text": "Parfois les émotions que les autres ressentent sont difficiles à comprendre.",
+          "audio": "ER5-FR-25",
+          "face": "confused"
+        },
+        {
+          "text": "Parfois les autres personnes dans la même situation que toi ont des émotions différentes de celles que tu pourrais avoir dans la même situation! Ça arrive parce que les autres personnes sont différentes de toi, elles aiment des choses que toi tu n’aimes pas et parfois, elles n’aiment pas des choses que toi tu aimes !",
+          "audio": "ER5-FR-26",
+          "face": "happy"
+        },
+        {
+          "text": "Donc, imagine deux personnes qui aiment deux équipes de foot différentes et que ces deux équipes jouent ensemble. L’une perd, l’autre gagne. Forcément une de ces deux personnes sera heureuse – celle dont son équipe a gagné",
+          "audio": "ER5-FR-27",
+          "face": "blink"
+        },
+        {
+          "text": "et l’autre sera triste – celle dont son équipe a perdu.",
+          "audio": "ER5-FR-28",
+          "face": "sad"
+        },
+        {
+          "text": "Parfois les gens ressentent aussi des émotions différentes non pas parce ce qu’elles ont des goûts différents mais parce qu’elles voient les choses de façons différentes !",
+          "audio": "ER5-FR-29"
+        },
+        {
+          "text": "Imagine maintenant deux personnes qui aiment la même équipe de foot. Leur équipe perd un match très important. L’une des personnes est très fâchée, alors elle commence à crier et elle devient même agressive.",
+          "audio": "ER5-FR-30",
+          "face": "angry"
+        },
+        {
+          "text": "Par contre, L’autre est aussi triste que son équipe ait perdu. Mais cette personne reste calme.",
+          "audio": "ER5-FR-31",
+          "face": "happy"
+        },
+        {
+          "text": "La différence entre ces deux personnes est que la première n’arrive pas à bien gérer ses émotions et se laisse emporter facilement.",
+          "audio": "ER5-FR-32",
+          "face": "sad"
+        },
+        {
+          "text": "Par contre, l’autre personne, sait bien contrôler ses émotions et elle se dit que cette fois-ci son équipe a perdu mais que la prochaine fois elle gagnera.",
+          "audio": "ER5-FR-33",
+          "face": "happy"
+        },
+        {
+          "text": "D’autres fois, les gens ont les mêmes émotions que toi mais pour des raisons différentes de la tienne. Les mêmes émotions peuvent arriver dans des situations très différentes et parfois même pour des raisons opposées.",
+          "audio": "ER5-FR-34",
+          "face": "smile"
+        },
+        {
+          "text": "Un enfant peut se sentir triste parce qu’il a reçu une mauvaise nouvelle, un autre parce que ses parents ne lui donnent pas un jeu qu’il voulait, et un autre parce qu’il neige beaucoup et qu’il ne peut pas aller à l’école. Ou alors encore, une personne peut se sentir heureuse parce qu’elle a réussi son examen, pendant qu’une autre peut se sentir heureuse parce que quelqu’un qu’elle n’aime pas s’est fait du mal et une autre parce qu’elle a pu aider quelqu’un qui avait perdu son chien.",
+          "audio": "ER5-FR-35",
+          "face": "happy"
+        },
+        {
+          "text": "Ben, voilà c’est de ça qu’on va parler aujourd’hui.",
+          "audio": "ER5-FR-36",
+          "face": "smile"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause avant de commencer ?",
+          "audio": "ER5-FR-37",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER5-FR-38",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER5-FR-39",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5.2_(Lesson_1)",
+      "blocks": [
+        {
+          "text": "Exercice nécessitant un jeu de carte. Munissiez-vous de la carte 5.1 avant de commencer )"
+        },
+        {
+          "text": "Pour le premier jeu mon assistante va te montrer quelques cartes.",
+          "audio": "ER5-FR-40"
+        },
+        {
+          "text": "Ce sont les mêmes cartes que nous avons vu la dernière fois !",
+          "audio": "ER5-FR-41"
+        },
+        {
+          "text": "Souviens-toi qu’avec ces cartes-là, tu peux toujours regarder les noms des émotions et les exemples de l’autre côté de la carte.",
+          "audio": "ER5-FR-42",
+          "face": "happy"
+        },
+        {
+          "text": "N° 1/6"
+        },
+        {
+          "text": "Prends la carte avec la personne qui a l’air émerveillée.",
+          "audio": "ER5-FR-43",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !",
+                  "audio": "ER4-FR-45",
+                  "face": "happy"
+                },
+                {
+                  "text": "Tu l’as bien trouvée !+",
+                  "audio": "ER5-FR-46",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas celle-là.+",
+                  "audio": "ER4-FR-47",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": " Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48",
+                  "face": "happy"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?+",
+                  "audio": "ER4-FR-50",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48",
+                  "face": "happy"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Isabelle est émerveillée parce qu’elle a vu un très beau papillon. Elle n’avait jamais rien vu d’aussi beau de sa vie.",
+          "audio": "ER5-FR-51",
+          "face": "happy"
+        },
+        {
+          "text": "Est-ce que tu te souviens de quelqu’un qui s’est aussi déjà senti émerveillé ?",
+          "audio": "ER5-FR-52",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah je vois pourquoi cette personne s’est sentie comme ça !",
+                  "audio": "ER5-FR-53",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah oui…",
+                  "audio": "ER5-FR-54",
+                  "gesture": "happy voice"
+                },
+                {
+                  "text": "Raconte-moi ce qu’il s’est passé pour que la personne se sente émerveillée.",
+                  "audio": "ER5-FR-55",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah bon…",
+                  "audio": "ER5-FR-56",
+                  "gesture": "sad voice"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent émerveillé.",
+                  "audio": "ER5-FR-57"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER4-FR-50"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent émerveillé.",
+                  "audio": "ER5-FR-57"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3 ou F4"
+        },
+        {
+          "text": "Se sentir émerveillé est une émotion que nous avons quand nous sommes surpris par quelque chose qui nous fait plaisir. Une personne peut être émerveillée par le goût de quelque chose de nouveau qu’elle a mangé, par le bon comportement d’une personne auquel elle ne s’y attendait pas, par une bonne nouvelle qui n’était pas attendue, ou par quelque chose de très beau comme le papillon qu’Isabelle a vue.",
+          "audio": "ER5-FR-59",
+          "face": "happy"
+        },
+        {
+          "text": "Maintenant mon assistante va te montrer d’autres cartes.",
+          "audio": "ER5-FR-60",
+          "face": "happy"
+        },
+        {
+          "text": "N° 2/6"
+        },
+        {
+          "text": "Prends maintenant la carte avec la personne qui a l’air soucieuse.",
+          "audio": "ER5-FR-61",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !",
+                  "audio": "ER4-FR-45",
+                  "face": "happy"
+                },
+                {
+                  "text": "Tu l’as bien trouvée !+",
+                  "audio": "ER5-FR-46",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas celle-là.+",
+                  "audio": "ER4-FR-47",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": " Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "hasmileppy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?+",
+                  "audio": "ER4-FR-50",
+                  "face": "confused"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "smile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Fabrice se fait du souci pour son amie Jennifer parce qu’elle avait l’air très triste quand il l’a vue.",
+          "audio": "ER5-FR-62",
+          "face": "afraid"
+        },
+        {
+          "text": "Est-ce que tu te souviens de quelqu’un qui s’est aussi déjà senti soucieux ?",
+          "audio": "ER5-FR-63",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah je vois pourquoi cette personne s’est sentie comme ça !",
+                  "audio": "ER5-FR-53",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah oui…",
+                  "audio": "ER5-FR-54",
+                  "gesture": "happy voice"
+                },
+                {
+                  "text": "Raconte-moi ce qu’il s’est passé pour que la personne se sente soucieuse.",
+                  "audio": "ER5-FR-64",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah bon…",
+                  "audio": "ER5-FR-56",
+                  "gesture": "sad voice"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent soucieux.",
+                  "audio": "ER5-FR-65"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER4-FR-50"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent soucieux.",
+                  "audio": "ER5-FR-65"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3 ou F4"
+        },
+        {
+          "text": "Se sentir soucieux est une émotion que nous avons quand quelque chose de mauvais pourrait se produire et que nous devons attendre de savoir si cela va arriver ou pas. Une personne peut se sentir soucieuse ou préoccupée parce qu’elle a peur que quelque chose lui arrive ou arrive à quelqu’un qu’elle aime bien, comme Fabrice qui se fait du souci pour son amie.",
+          "audio": "ER5-FR-66",
+          "face": "afraid"
+        },
+        {
+          "text": "Maintenant mon assistante va te montrer d’autres cartes.",
+          "audio": "ER5-FR-60",
+          "face": "happy"
+        },
+        {
+          "text": "N° 3/6"
+        },
+        {
+          "text": "Prends maintenant la carte avec la personne qui a l’air agacée.",
+          "audio": "ER5-FR-67",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !",
+                  "audio": "ER4-FR-45",
+                  "face": "happy"
+                },
+                {
+                  "text": "Tu l’as bien trouvée !+",
+                  "audio": "ER5-FR-46",
+                  "face": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas celle-là.+",
+                  "audio": "ER4-FR-47",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": " Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "smile"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?+",
+                  "audio": "ER4-FR-50",
+                  "face": "confused"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "smile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Loïc se sent agacé parce que sa sœur le dérange tout le temps et qu’il n’arrive pas à terminer son devoir.",
+          "audio": "ER5-FR-68",
+          "face": "angry"
+        },
+        {
+          "text": "Est-ce que tu te souviens de quelqu’un qui s’est aussi déjà senti agacé ?",
+          "audio": "ER5-FR-69",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah je vois pourquoi cette personne s’est sentie comme ça !",
+                  "audio": "ER5-FR-53",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah oui…",
+                  "audio": "ER5-FR-54",
+                  "gesture": "happy voice"
+                },
+                {
+                  "text": "Raconte-moi ce qu’il s’est passé pour que la personne se sente agacée.",
+                  "audio": "ER5-FR-70",
+                  "face": "smile"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah bon…",
+                  "audio": "ER5-FR-56",
+                  "gesture": "sad voice"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent agacé.",
+                  "audio": "ER5-FR-71"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER4-FR-50"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent agacé.",
+                  "audio": "ER5-FR-71"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3 ou F4"
+        },
+        {
+          "text": "Se sentir agacé est une émotion que nous avons quand quelque chose nous énerve. Si la chose ou la personne qui les agace continue, elles peuvent devenir très fâchées. Une personne peut devenir agacée parce qu’elle n’arrive pas à faire quelque chose, comme essayer de passer un niveau dans un jeu. Ou parce que quelqu’un lui a dit ou fait plusieurs fois quelque chose que la personne n’aime pas. Comme Loïc qui se sent agacé parce que sa sœur ne le laisse pas terminer son devoir.",
+          "audio": "ER5-FR-72",
+          "face": "angry"
+        },
+        {
+          "text": "Maintenant mon assistante va te montrer d’autres cartes.",
+          "audio": "ER5-FR-60",
+          "face": "happy"
+        },
+        {
+          "text": "N° 4/6"
+        },
+        {
+          "text": "Prends maintenant la carte avec la personne qui a l’air sceptique.",
+          "audio": "ER5-FR-73",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !",
+                  "audio": "ER4-FR-45",
+                  "face": "smile"
+                },
+                {
+                  "text": "Tu l’as bien trouvée !+",
+                  "audio": "ER5-FR-46",
+                  "gesture": "happy dance"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas celle-là.+",
+                  "audio": "ER4-FR-47",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": " Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48",
+                  "face": "happy"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?+",
+                  "audio": "ER4-FR-50",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48",
+                  "face": "happy"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Paul se sent sceptique parce qu’il ne croit pas vraiment que son ami ait fini de lire un livre de 500 pages en seulement 2 jours.",
+          "audio": "ER5-FR-74",
+          "face": "surprised"
+        },
+        {
+          "text": "Est-ce que tu te souviens de quelqu’un qui s’est aussi déjà senti sceptique ?",
+          "audio": "ER5-FR-75",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah je vois",
+                  "audio": "ER5-FR-53",
+                  "face": "smile"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah oui…",
+                  "audio": "ER5-FR-54",
+                  "gesture": "happy voice"
+                },
+                {
+                  "text": "Raconte-moi ce qu’il s’est passé",
+                  "audio": "ER5-FR-76",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah bon…",
+                  "audio": "ER5-FR-56",
+                  "gesture": "sad voice"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent sceptique.",
+                  "audio": "ER5-FR-77"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER4-FR-50"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent sceptique.",
+                  "audio": "ER5-FR-77"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3 ou F4"
+        },
+        {
+          "text": "Se sentir sceptique est une émotion que nous avons quand nous avons du mal à croire quelque chose que quelqu’un nous raconte ou encore quand nous ne sommes pas surs de quelque chose. Comme Paul qui s’est senti sceptique parce qu’il ne croit pas que son ami serait capable de lire un livre avec autant de pages en juste deux jours.",
+          "audio": "ER5-FR-78",
+          "face": "confused"
+        },
+        {
+          "text": "Maintenant mon assistante va te montrer d’autres cartes.",
+          "audio": "ER5-FR-60",
+          "face": "happy"
+        },
+        {
+          "text": "N° 5/6"
+        },
+        {
+          "text": "Prends maintenant la carte avec la personne qui a l’air bouleversée.",
+          "audio": "ER5-FR-79",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !",
+                  "audio": "ER4-FR-45",
+                  "face": "happy"
+                },
+                {
+                  "text": "Tu l’as bien trouvée !+",
+                  "audio": "ER5-FR-46",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas celle-là.+",
+                  "audio": "ER4-FR-47",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": " Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48",
+                  "face": "happy"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?+",
+                  "audio": "ER4-FR-50",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48",
+                  "face": "happy"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Patrick se sent bouleversé parce qu’il a appris que son voisin a eu un accident. Il n’arrive pas à y croire. Ça lui fait vraiment de la peine.",
+          "audio": "ER5-FR-80",
+          "face": "sad"
+        },
+        {
+          "text": "Est-ce que tu te souviens de quelqu’un qui s’est aussi déjà senti bouleversé ?",
+          "audio": "ER5-FR-81",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah je vois pourquoi cette personne s’est sentie comme ça !",
+                  "audio": "ER5-FR-53",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah oui…",
+                  "audio": "ER5-FR-54",
+                  "gesture": "happy voice"
+                },
+                {
+                  "text": "Raconte-moi ce qu’il s’est passé pour que la personne se sente bouleversée.",
+                  "audio": "ER5-FR-82",
+                  "face": "smile"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah bon…",
+                  "audio": "ER5-FR-56",
+                  "gesture": "sad voice"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent bouleversé.",
+                  "audio": "ER5-FR-83"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER4-FR-50"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent bouleversé.",
+                  "audio": "ER5-FR-83"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3 ou F4"
+        },
+        {
+          "text": "Se sentir bouleversé est une émotion que nous avons quand quelque chose nous choque et nous laisse vraiment très tristes. Parfois la personne est tellement choquée et triste qu’elle ne veut même pas y croire. Une personne peut se sentir bouleversée parce qu’elle apprend une mauvaise nouvelle sur quelqu’un qu’elle aime bien. Comme Patrick qui a appris que son voisin avait eu un accident.",
+          "audio": "ER5-FR-84",
+          "face": "sad"
+        },
+        {
+          "text": "Maintenant mon assistante va te montrer le dernier ensemble de cartes.",
+          "audio": "ER5-FR-85",
+          "face": "happy"
+        },
+        {
+          "text": "N° 6/6"
+        },
+        {
+          "text": "Prends maintenant la carte avec la personne qui a l’air enchantée.",
+          "audio": "ER5-FR-86",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !",
+                  "audio": "ER4-FR-45",
+                  "face": "happy"
+                },
+                {
+                  "text": "Tu l’as bien trouvée !+",
+                  "audio": "ER5-FR-46",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas celle-là.+",
+                  "audio": "ER4-FR-47",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": " Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48",
+                  "face": "happy"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?+",
+                  "audio": "ER4-FR-50",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Ce n’est pas facile. Heureusement, mon assistante va t’aider à la trouver.",
+                  "audio": "ER4-FR-48",
+                  "face": "happy"
+                },
+                {
+                  "text": "Si tu veux, tu peux aussi regarder le nom des émotions qui sont inscrits de l’autre côté de la carte.",
+                  "audio": "ER4-FR-49",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Isabelle se sent enchantée parce qu’elle a revu son amie Béatrice. Ça lui a fait beaucoup de plaisir.",
+          "audio": "ER5-FR-87",
+          "face": "happy"
+        },
+        {
+          "text": "Est-ce que tu te souviens de quelqu’un qui s’est aussi déjà senti enchanté ?",
+          "audio": "ER5-FR-88",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah je vois pourquoi cette personne s’est sentie comme ça !",
+                  "audio": "ER5-FR-53",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah oui…",
+                  "audio": "ER5-FR-54",
+                  "gesture": "happy voice"
+                },
+                {
+                  "text": "Raconte-moi ce qu’il s’est passé pour que la personne se sente enchantée.",
+                  "audio": "ER5-FR-89",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ah bon…",
+                  "audio": "ER5-FR-56",
+                  "gesture": "sad voice"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent enchantée.",
+                  "audio": "ER5-FR-90"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER4-FR-50"
+                },
+                {
+                  "text": "Imagine alors que quelqu’un se sent enchantée.",
+                  "audio": "ER5-FR-90"
+                },
+                {
+                  "text": "Qu’est ce qui pourrait provoquer ça ?",
+                  "audio": "ER5-FR-58"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3 ou F4"
+        },
+        {
+          "text": "Se sentir enchanté est une émotion que nous avons quand nous sommes très heureux que quelque chose se passe comme ça. Ou encore quand quelque chose nous fait vraiment plaisir. Comme Isabelle qui s’est sentie enchantée de finalement revoir son amie Béatrice qu’elle n’avait pas vue depuis longtemps.",
+          "audio": "ER5-FR-91",
+          "face": "happy"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause avant de continuer ?",
+          "audio": "ER5-FR-92",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER5-FR-38",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER5-FR-39",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ne pas oublier de récupérer la série de carte et de la ranger dans l’emplacement prévu à cet effet"
+        },
+        {
+          "text": "• OK"
+        }
+      ]
+    },
+    {
+      "title": "5.3_(Lesson_2)",
+      "blocks": [
+        {
+          "text": "Tu sais, dans beaucoup de situations de la vie, les gens peuvent avoir des émotions différentes les unes des autres. Cela dépend de comment elles perçoivent les situations et les raisons qui ont mené à ces situations.",
+          "audio": "ER5-FR-93",
+          "face": "happy"
+        },
+        {
+          "text": "Dans le prochain jeu, je vais te donner des situations dans lesquelles tu pourrais te retrouver. Dans ces situations, il y aura toujours une autre personne. Je veux que tu me dises comment toi tu te sentirais dans cette situation et aussi comment l’autre personne pourrait se sentir. On y va !",
+          "audio": "ER5-FR-94",
+          "face": "happy"
+        },
+        {
+          "text": "N° 1/4"
+        },
+        {
+          "text": "Imagine que tu es en train de jouer au ballon avec une amie dans la cour de récré et en te lançant le ballon elle te le lance trop fort et te fait du mal.",
+          "audio": "ER5-FR-95"
+        },
+        {
+          "text": "Comment est-ce que tu te sentirais dans cette situation ?",
+          "audio": "ER5-FR-96",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien ! C’est correct !+",
+                  "audio": "ER5-FR-97",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, mais ce n’est pas tout.",
+                  "audio": "ER5-FR-98"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER5-FR-99",
+                  "gesture": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+                  "audio": "ER4-FR-102",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+          "audio": "ER4-FR-102",
+          "face": "happy"
+        },
+        {
+          "text": "Dans une situation pareille tu pourrais te sentir tout d’abord blessé parce ce que le ballon t’a fait du mal.",
+          "audio": "ER5-FR-105",
+          "face": "sad"
+        },
+        {
+          "text": "Tu pourrais aussi te sentir fâché contre ton amie parce qu’elle n’a pas fait attention et t’a fait du mal.",
+          "audio": "ER5-FR-106",
+          "face": "angry"
+        },
+        {
+          "text": "Tu pourrais encore te sentir déçu parce que tu crois que ton amie l’a fait exprès pour te faire perdre.",
+          "audio": "ER5-FR-107",
+          "face": "sad"
+        },
+        {
+          "text": "Maintenant, comment est-ce que tu crois que ton amie, elle se sentirait dans cette même situation ?",
+          "audio": "ER5-FR-110",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien ! C’est correct !+",
+                  "audio": "ER5-FR-97",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, mais ce n’est pas tout.",
+                  "audio": "ER5-FR-98"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER5-FR-99",
+                  "gesture": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+                  "audio": "ER4-FR-102",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+          "audio": "ER4-FR-102",
+          "face": "happy"
+        },
+        {
+          "text": "Elle pourrait aussi se sentir amusée parce qu’elle t’a eu.",
+          "audio": "ER5-FR-112",
+          "face": "happy"
+        },
+        {
+          "text": "Mais aussi surprise parce qu’elle ne s’attendait pas à ce que ce soit si fort.",
+          "audio": "ER5-FR-113",
+          "face": "surprised"
+        },
+        {
+          "text": "Elle pourrait encore avoir peur que tu racontes à l’institutrice ce qu’il s’est passé et qu’elle soit punie à cause de ça.",
+          "audio": "ER5-FR-114",
+          "face": "afraid"
+        },
+        {
+          "text": "Ou elle pourrait se faire des soucis pour toi parce qu’elle a eu peur que tu te sois fait du mal.",
+          "audio": "ER5-FR-115",
+          "face": "afraid"
+        },
+        {
+          "text": "Ou elle pourrait se sentir agitée parce qu’elle ne voulait pas te faire du mal et que maintenant, elle se sent coupable.",
+          "audio": "ER5-FR-116",
+          "face": "afraid"
+        },
+        {
+          "text": "Elle pourrait encore se sentir vexée parce qu’elle a été maladroite, qu’elle t’a mal lancé le ballon et qu’elle a l’impression d’être nulle.",
+          "audio": "ER5-FR-117",
+          "face": "sad"
+        },
+        {
+          "text": "N° 2/4"
+        },
+        {
+          "text": "Je vais maintenant te présenter une autre situation. Imagine que tu invites un camarade pour ton anniversaire et qu’il dit qu’il ne peut pas venir.",
+          "audio": "ER5-FR-118"
+        },
+        {
+          "text": "Comment est-ce que tu te sentirais dans cette situation ?",
+          "audio": "ER5-FR-96",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien ! C’est correct !+",
+                  "audio": "ER5-FR-97",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, mais ce n’est pas tout.",
+                  "audio": "ER5-FR-98"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER5-FR-99",
+                  "gesture": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+                  "audio": "ER4-FR-102",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+          "audio": "ER4-FR-102",
+          "face": "happy"
+        },
+        {
+          "text": "Tu pourrais aussi te sentir frustré parce que c’est déjà la deuxième fois que tu l’invites et qu’il ne peut pas venir.",
+          "audio": "ER5-FR-120",
+          "face": "sad"
+        },
+        {
+          "text": "Tu pourrais encore te sentir amer parce que toi tu vas toujours à son anniversaire mais que lui, il ne veut jamais venir au tien.",
+          "audio": "ER5-FR-121",
+          "face": "angry"
+        },
+        {
+          "text": "Mais tu pourrais aussi te sentir ennuyé pour lui parce que tu sais qu’il aurait bien aimé venir mais qu’il ne peut pas parce qu’il part chez sa tante la journée de ton anniversaire.",
+          "audio": "ER5-FR-122",
+          "face": "sad"
+        },
+        {
+          "text": "Ou tu pourrais te sentir intrigué parce que t’aimerais savoir quelle est la vraie raison de pourquoi il ne vient pas.",
+          "audio": "ER5-FR-123",
+          "face": "surprised"
+        },
+        {
+          "text": "Maintenant, comment est-ce que tu crois que ton camarade se sentirait dans cette situation ?",
+          "audio": "ER5-FR-125",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien ! C’est correct !+",
+                  "audio": "ER5-FR-97",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, mais ce n’est pas tout.",
+                  "audio": "ER5-FR-98"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER5-FR-99",
+                  "gesture": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+                  "audio": "ER4-FR-102",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+          "audio": "ER4-FR-102",
+          "face": "happy"
+        },
+        {
+          "text": "Dans une situation comme celle-là ton camarade pourrait se sentir vexé parce que c’est déjà la deuxième fois que tu l’invites et qu’il ne peut pas venir.",
+          "audio": "ER5-FR-126",
+          "face": "sad"
+        },
+        {
+          "text": "Ou il pourrait se sentir indifférent parce que ça ne lui fait rien d’y aller ou de ne pas y aller. Il pourrait encore se sentir triste parce qu’il aurait vraiment aimé aller à ta fête mais que malheureusement il doit aller chez sa tante la journée de ton anniversaire.",
+          "audio": "ER5-FR-127",
+          "face": "sad"
+        },
+        {
+          "text": "Ou il pourrait se sentir étonné que tu l’invites pour son anniversaire. Il ne s’y attendait pas et il avait déjà fait d’autres plans pour cette journée-là.",
+          "audio": "ER5-FR-128",
+          "face": "surprised"
+        },
+        {
+          "text": "Il pourrait aussi se sentir agacé que tu ne préviennes que maintenant et qu’il a déjà fait d’autres plans et que maintenant il ne peut plus y aller.",
+          "audio": "ER5-FR-129",
+          "face": "angry"
+        },
+        {
+          "text": "Ou il pourrait se sentir appréhensif parce qu’il ne veut pas te décevoir.",
+          "audio": "ER5-FR-130",
+          "face": "afraid"
+        },
+        {
+          "text": "N° 3/4"
+        },
+        {
+          "text": "Maintenant une autre situation. Imagine que tu arrives à la maison et que tu racontes à ta maman que tu as eu une très bonne note dans une fiche à l’école. Ta maman dit « oui » sans faire trop attention à ce que tu lui as dit et continue avec ses tâches.",
+          "audio": "ER5-FR-131"
+        },
+        {
+          "text": "Comment est-ce que tu te sentirais dans cette situation ?",
+          "audio": "ER5-FR-96",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien ! C’est correct !+",
+                  "audio": "ER5-FR-97",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, mais ce n’est pas tout.",
+                  "audio": "ER5-FR-98"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER5-FR-99",
+                  "gesture": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+                  "audio": "ER4-FR-102",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+          "audio": "ER4-FR-102",
+          "face": "happy"
+        },
+        {
+          "text": "Dans une situation pareille, tu pourrais te sentir en colère parce que tu pourrais te dire que ta maman s’en fiche toujours de tes bons résultats mais que par contre, si tu avais eu une mauvaise note, alors là tu aurais été puni.",
+          "audio": "ER5-FR-132",
+          "face": "angry"
+        },
+        {
+          "text": "Ou tu pourrais te sentir déçu. Parce que tu t’attendais à ce que ta maman soit très fière de toi.",
+          "audio": "ER5-FR-133",
+          "face": "sad"
+        },
+        {
+          "text": "Mais tu peux encore te sentir détendu parce que tu crois qu’au fait elle n’a pas bien fait attention à ce que tu lui as dit alors tu lui répètes encore une fois.",
+          "audio": "ER5-FR-135",
+          "face": "happy"
+        },
+        {
+          "text": "Maintenant, comment est-ce que tu crois que ta maman pourrait se sentir dans cette situation ?",
+          "audio": "ER5-FR-136",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien ! C’est correct !+",
+                  "audio": "ER5-FR-97",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, mais ce n’est pas tout.",
+                  "audio": "ER5-FR-98"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER5-FR-99",
+                  "gesture": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+                  "audio": "ER4-FR-102",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Je suis sûre que tu t’en souviendras pour les situations à venir.",
+          "audio": "ER4-FR-102",
+          "face": "happy"
+        },
+        {
+          "text": "Dans une situation comme celle-là ta maman pourrait tout d’abord n’avoir pas bien entendu ce que tu lui as dit. Ou elle pourrait aussi être distraite par quelque chose à laquelle elle était en train de penser au même moment et ne pas avoir fait attention à ce que tu lui disais. Ou elle pourrait être concentrée à faire quelque chose d’important et ne pas avoir bien compris ce que tu lui as dit. Elle pourrait encore être soucieuse par rapport à quelque chose qui s’est passé dans sa journée et ne pas arriver à penser à une autre chose. Ou encore, elle pourrait être contente avec ta bonne note mais être tellement pressée de finir ce qu’elle était en train de faire qu’elle n’a pas assez apporté attention à ta bonne nouvelle.",
+          "audio": "ER5-FR-137",
+          "face": "happy"
+        },
+        {
+          "text": "Tu vois ? Il existe plusieurs émotions que nous pouvons ressentir pour une même situation",
+          "audio": "ER5-FR-148",
+          "face": "happy"
+        },
+        {
+          "text": "Cela dépend de comment nous voyons la situation et de ce que l’on croit qui a causé cette situation. Les autres personnes aussi peuvent se sentir de différentes façons.",
+          "audio": "ER5-FR-149",
+          "face": "happy"
+        },
+        {
+          "text": "Parfois nous croyons que les personnes se sentent d’une façon mais parfois ce n’est pas le cas. Pour bien savoir comment les autres se sentent, le mieux est d’avoir le plus d’informations possibles. Au plus tu connais la situation, au plus tu peux comprendre pourquoi les gens ont réagi comme ça.",
+          "audio": "ER5-FR-150",
+          "face": "happy"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause avant de continuer ?",
+          "audio": "ER5-FR-92",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER5-FR-38",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER5-FR-39",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5.4_(Lesson_3)",
+      "blocks": [
+        {
+          "text": "Exercice nécessitant un jeu de carte. Munissiez-vous de la carte 5.2 avant de commencer )"
+        },
+        {
+          "text": "Faisons un autre exercice.",
+          "audio": "ER5-FR-151",
+          "face": "happy"
+        },
+        {
+          "text": "Cet exercice ressemble un peu à celui qu’on vient de faire. Dans l’exercice qu’on vient de faire, je t’ai donné plusieurs exemples de différentes émotions que les personnes peuvent avoir pour une même situation. Je t’ai aussi donné des exemples de différentes raisons pour lesquelles ils peuvent ressentir d’autres émotions que celles qu’on pourrait croire.",
+          "audio": "ER5-FR-152",
+          "face": "happy"
+        },
+        {
+          "text": "Dans ce nouvel exercice je vais encore te présenter des situations et des personnes.",
+          "audio": "ER5-FR-153",
+          "face": "happy"
+        },
+        {
+          "text": "Pour chaque situation je veux que tu trouves toi-même au moins deux émotions différentes que la personne pourrait ressentir dans cette situation. Tu peux utiliser la roue des émotions pour regarder différentes émotions possibles.",
+          "audio": "ER5-FR-154",
+          "face": "happy"
+        },
+        {
+          "text": "Mais tu peux aussi utiliser des émotions qui ne sont pas dans la roue.",
+          "audio": "ER5-FR-155",
+          "gesture": "one eye blink"
+        },
+        {
+          "text": "C’est parti !",
+          "audio": "ER5-FR-156"
+        },
+        {
+          "text": "N° 1/4"
+        },
+        {
+          "text": "Première situation. Ton papa est en retard pour aller au travail et il ne trouve pas les clés de la voiture.",
+          "audio": "ER5-FR-157"
+        },
+        {
+          "text": "Comment est-ce qu’il pourrait se sentir dans cette situation ? Dis-moi deux émotions qu’il pourrait sentir.",
+          "audio": "ER5-FR-158",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien ! C’est correct !+",
+                  "audio": "ER5-FR-97",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Il faut dire deux émotions. Tu en as dit seulement une. Fais encore un petit effort !",
+                  "audio": "ER5-FR-159",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Essaye encore une fois !",
+                  "audio": "ER5-FR-161",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                },
+                {
+                  "text": "Fais quand même un petit effort !",
+                  "audio": "ER5-FR-160",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 à F4"
+        },
+        {
+          "text": "Ton papa pourrait, par exemple, se sentir énervé parce qu’il ne trouve pas les clés.",
+          "audio": "ER5-FR-162",
+          "face": "angry"
+        },
+        {
+          "text": "Il pourrait aussi avoir peur que son chef se fâche contre lui s’il arrive en retard.",
+          "audio": "ER5-FR-163",
+          "face": "afraid"
+        },
+        {
+          "text": "N° 2/4"
+        },
+        {
+          "text": "Une autre situation !",
+          "audio": "ER5-FR-164",
+          "face": "happy"
+        },
+        {
+          "text": "Ton institutrice est enceinte.",
+          "audio": "ER5-FR-165"
+        },
+        {
+          "text": "Comment est-ce que tu crois qu’elle pourrait se sentir dans cette situation ? Dis-moi deux émotions qu’elle pourrait sentir.",
+          "audio": "ER5-FR-166",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien ! C’est correct !+",
+                  "audio": "ER5-FR-97",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Il faut dire deux émotions. Tu en as dit seulement une. Fais encore un petit effort !",
+                  "audio": "ER5-FR-159",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Essaye encore une fois !",
+                  "audio": "ER5-FR-161",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                },
+                {
+                  "text": "Fais quand même un petit effort !",
+                  "audio": "ER5-FR-160",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 à F4"
+        },
+        {
+          "text": "Ton institutrice pourrait se sentir enthousiaste parce que ça faisait longtemps qu’elle voulait avoir un enfant.",
+          "audio": "ER5-FR-167",
+          "face": "happy"
+        },
+        {
+          "text": "Elle pourrait aussi se sentir un peu triste parce qu’elle va devoir arrêter de donner des cours à sa classe pendant plusieurs mois.",
+          "audio": "ER5-FR-168",
+          "face": "sad"
+        },
+        {
+          "text": "N° 3/4"
+        },
+        {
+          "text": "Une autre situation !",
+          "audio": "ER5-FR-164"
+        },
+        {
+          "text": "Ton ami a appris qu’il allait partir avec sa famille dans un autre pays loin d’ici.",
+          "audio": "ER5-FR-169"
+        },
+        {
+          "text": "Comment est-ce qu’il pourrait se sentir dans cette situation ? Dis-moi deux émotions qu’il pourrait sentir.",
+          "audio": "ER5-FR-158",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien ! C’est correct !+",
+                  "audio": "ER5-FR-97",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Il faut dire deux émotions. Tu en as dit seulement une. Fais encore un petit effort !",
+                  "audio": "ER5-FR-159",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Essaye encore une fois !",
+                  "audio": "ER5-FR-161",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                },
+                {
+                  "text": "Fais quand même un petit effort !",
+                  "audio": "ER5-FR-160",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 à F4"
+        },
+        {
+          "text": "Ton ami pourrait se sentir anxieux par ce qu’il ne sait pas ce qui l’attend dans ce nouveau pays et qu’il a peur de ne plus se refaire des amis.",
+          "audio": "ER5-FR-170",
+          "face": "afraid"
+        },
+        {
+          "text": "Il pourrait aussi se sentir excité parce que connaître un nouveau pays est une aventure.",
+          "audio": "ER5-FR-171",
+          "face": "happy"
+        },
+        {
+          "text": "N° 4/4"
+        },
+        {
+          "text": "Une autre situation !",
+          "audio": "ER5-FR-164"
+        },
+        {
+          "text": "Ta cousine s’est cassée la jambe et dois rester à la maison plusieurs semaines.",
+          "audio": "ER5-FR-172"
+        },
+        {
+          "text": "Comment est-ce que tu crois qu’elle pourrait se sentir dans cette situation ? Dis-moi deux émotions qu’elle pourrait sentir.",
+          "audio": "ER5-FR-166",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien ! C’est correct !+",
+                  "audio": "ER5-FR-97",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Il faut dire deux émotions. Tu en as dit seulement une. Fais encore un petit effort !",
+                  "audio": "ER5-FR-159",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Essaye encore une fois !",
+                  "audio": "ER5-FR-161",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                },
+                {
+                  "text": "Fais quand même un petit effort !",
+                  "audio": "ER5-FR-160",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 à F4"
+        },
+        {
+          "text": "Ta cousine peut se sentir frustrée par ce qu’elle ne pourra plus aller à la piscine et qu’elle adore aller à la piscine.",
+          "audio": "ER5-FR-173",
+          "face": "sad"
+        },
+        {
+          "text": "Mais elle pourrait aussi se sentir contente parce qu’elle pourra regarder la télé et jouer à des jeux vidéo autant qu’elle le veut pendant la journée.",
+          "audio": "ER5-FR-174",
+          "face": "happy"
+        },
+        {
+          "text": "Il y a vraiment tellement de façons de réagir à la même situation ! Tu ne trouves pas ?",
+          "audio": "ER5-FR-175",
+          "face": "happy"
+        },
+        {
+          "text": "Il y a encore quelques exercices que je veux faire avec toi aujourd’hui.",
+          "audio": "ER5-FR-176"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause avant de continuer ?",
+          "audio": "ER5-FR-92",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER5-FR-38",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER5-FR-39",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ne pas oublier de récupérer la roue des émotions et de la ranger dans l’emplacement prévu à cet effet"
+        },
+        {
+          "text": "• OK"
+        }
+      ]
+    },
+    {
+      "title": "5.5_(Lesson_4) ",
+      "blocks": [
+        {
+          "text": "Maintenant je te propose un exercice un tout petit peu différent. Au fait, c’est l’inverse du jeu qu’on vient juste de faire avant.",
+          "audio": "ER5-FR-177",
+          "face": "happy"
+        },
+        {
+          "text": "Dans ce nouveau jeu je vais te décrire comment quelques personnes se sentent. Je veux que tu essayes de penser à des situations qui auraient pu faire que la personne se sente comme ça. Il y a tellement de possibilités !",
+          "audio": "ER5-FR-178",
+          "face": "happy"
+        },
+        {
+          "text": "Ne sois pas timide ! Dis ce que te vient à l’esprit. C’est juste pour s’exercer ensemble, tu sais ? Je suis sûre que tu vas trouver plein de bonnes réponses",
+          "audio": "ER5-FR-179",
+          "face": "happy"
+        },
+        {
+          "text": "C’est parti !",
+          "audio": "ER5-FR-180"
+        },
+        {
+          "text": "N° 1/6"
+        },
+        {
+          "text": "Voici la première situation. Ta maman arrive à la maison et elle a l’air triste.",
+          "audio": "ER5-FR-181"
+        },
+        {
+          "text": "Qu’est-ce qu’il aurait pu se passer ?",
+          "audio": "ER5-FR-182",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui ! Ça c’est une bonne possibilité ! Très bien !+",
+                  "audio": "ER5-FR-183",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Essaye encore une fois !",
+                  "audio": "ER5-FR-161",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                },
+                {
+                  "text": "Fais quand même un petit effort !",
+                  "audio": "ER5-FR-160",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Ta maman pourrait se sentir triste, par exemple, parce qu’elle a reçu une mauvaise nouvelle.",
+          "audio": "ER5-FR-184",
+          "face": "sad"
+        },
+        {
+          "text": "N° 2/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER5-FR-164"
+        },
+        {
+          "text": "Le chauffeur du bus est très irrité.",
+          "audio": "ER5-FR-185"
+        },
+        {
+          "text": "Qu’est-ce qu’il aurait pu se passer ?",
+          "audio": "ER5-FR-182",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui ! Ça c’est une bonne possibilité ! Très bien !+",
+                  "audio": "ER5-FR-183",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Essaye encore une fois !",
+                  "audio": "ER5-FR-161",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                },
+                {
+                  "text": "Fais quand même un petit effort !",
+                  "audio": "ER5-FR-160",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Le chauffeur pourrait être irrité, par exemple, parce qu’il a beaucoup de trafic et le donc le bus sera en retard.",
+          "audio": "ER5-FR-186",
+          "face": "angry"
+        },
+        {
+          "text": "N° 3/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER5-FR-164"
+        },
+        {
+          "text": "Ton institutrice rentre dans la classe et a l’air étonnée.",
+          "audio": "ER5-FR-187"
+        },
+        {
+          "text": "Qu’est-ce qu’il aurait pu se passer ?",
+          "audio": "ER5-FR-182",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui ! Ça c’est une bonne possibilité ! Très bien !+",
+                  "audio": "ER5-FR-183",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Essaye encore une fois !",
+                  "audio": "ER5-FR-161",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                },
+                {
+                  "text": "Fais quand même un petit effort !",
+                  "audio": "ER5-FR-160",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Ton institutrice pourrait avoir l’air étonnée, par exemple, parce que la moitié de la classe n’est pas encore arrivée.",
+          "audio": "ER5-FR-188",
+          "face": "surprised"
+        },
+        {
+          "text": "N° 4/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER5-FR-164"
+        },
+        {
+          "text": "Ton camarade de classe est en train de sauter sur son bureau. Il est très excité !",
+          "audio": "ER5-FR-189"
+        },
+        {
+          "text": "Qu’est-ce qu’il aurait pu se passer ?",
+          "audio": "ER5-FR-182",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui ! Ça c’est une bonne possibilité ! Très bien !+",
+                  "audio": "ER5-FR-183",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Essaye encore une fois !",
+                  "audio": "ER5-FR-161",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                },
+                {
+                  "text": "Fais quand même un petit effort !",
+                  "audio": "ER5-FR-160",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Ton camarade pourrait être très excité, par exemple, parce que les vacances commencent le lendemain.",
+          "audio": "ER5-FR-190",
+          "face": "smile"
+        },
+        {
+          "text": "N° 5/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER5-FR-164"
+        },
+        {
+          "text": "Ta voisine regarde la maison d’en face et fait une tête de mépris.",
+          "audio": "ER5-FR-191"
+        },
+        {
+          "text": "Qu’est-ce qu’il aurait pu se passer ?",
+          "audio": "ER5-FR-182",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui ! Ça c’est une bonne possibilité ! Très bien !+",
+                  "audio": "ER5-FR-183",
+                  "gesture": "happy"
+                },
+                {
+                  "text": "yupi… +",
+                  "audio": "ER5-FR-12",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Essaye encore une fois !",
+                  "audio": "ER5-FR-161",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                },
+                {
+                  "text": "Fais quand même un petit effort !",
+                  "audio": "ER5-FR-160",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Ta voisine pourrait avoir une tête de mépris, par exemple, parce qu’elle s’est fâchée avec la voisine qui habite dans la maison d’en face et rien que de regarder sa maison la dégoute.",
+          "audio": "ER5-FR-192",
+          "face": "disgusted"
+        },
+        {
+          "text": "N° 6/6"
+        },
+        {
+          "text": "Une toute dernière situation. Ton ami arrive en classe en retard et a l’air très anxieux.",
+          "audio": "ER5-FR-193"
+        },
+        {
+          "text": "Qu’est-ce qu’il aurait pu se passer ?",
+          "audio": "ER5-FR-182",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER5-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ce n’est pas grave.",
+                  "audio": "ER4-FR-101"
+                },
+                {
+                  "text": "Fais quand même un petit effort !",
+                  "audio": "ER5-FR-160",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait cela…+",
+                  "audio": "ER5-FR-103",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Mais ne t’en fais pas.",
+                  "audio": "ER4-FR-104"
+                },
+                {
+                  "text": "Essaye encore une fois !",
+                  "audio": "ER5-FR-161",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Si F2 ou F3"
+        },
+        {
+          "text": "Ton ami pourrai avoir l’air très anxieux, par exemple, parce qu’il a peur d’être puni à cause d’être arrivé en retard.",
+          "audio": "ER5-FR-194",
+          "face": "afraid"
+        },
+        {
+          "text": "Les gens peuvent réagir d’une certaine façon pour beaucoup de raisons différentes.",
+          "audio": "ER5-FR-195",
+          "face": "happy"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause avant de continuer ?",
+          "audio": "ER5-FR-92",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER5-FR-38",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER5-FR-39",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5.6_Conclusion_et devoir",
+      "blocks": [
+        {
+          "text": "Voilà ! Nous pouvons réagir avec différentes émotions à la même situation mais nous pouvons aussi avoir différentes raisons pour avoir la même émotion que quelqu’un d’autre ! Tu vois ? Ça marche dans les deux sens ! Les émotions sont très flexibles…",
+          "audio": "ER5-FR-196",
+          "face": "happy"
+        },
+        {
+          "text": "Aussi, les autres personnes peuvent avoir plein de raisons pour réagir d’une certaine façon. Parfois nous ne comprenons pas toujours ces raisons. Mais le plus souvent, le mieux est de, si possible, essayer de comprendre au maximum pourquoi c’est comme ça. Tu peux essayer de comprendre les émotions par le visage de la personne, ses comportements, le ton de la voix, ce que la personne dit, et aussi les signes de son corps : si elle est rouge, transpire, respire fort, etc…",
+          "audio": "ER5-FR-197"
+        },
+        {
+          "text": "Toutes les émotions sont importantes et toutes les émotions nous aident à mieux communiquer avec les autres.",
+          "audio": "ER5-FR-198",
+          "face": "happy"
+        },
+        {
+          "text": "Les émotions, comme tu le vois dans la roue des émotions, sont comme un arc-en-ciel.",
+          "audio": "ER5-FR-199",
+          "face": "happy"
+        },
+        {
+          "text": "De la même façon que tu as besoin de toutes les couleurs pour avoir un bel arc-en-ciel, tu as aussi besoin de toutes les émotions pour avoir du bien-être à l’intérieur de toi.",
+          "audio": "ER5-FR-200",
+          "face": "happy"
+        },
+        {
+          "text": "Aussi, comme dans l’arc-en-ciel, une couleur n’est pas plus présente que les autres. Toutes les couleurs sont là en quantités similaires. Parce que toutes sont aussi importantes.",
+          "audio": "ER5-FR-201",
+          "face": "happy"
+        },
+        {
+          "text": "Pour mieux comprendre ses émotions et les émotions des autres, il est très important de s’entraîner. Et de réfléchir aux raisons pour lesquelles tu t’es senti d’une certaine façon à un moment donné et à comment tu aurais pu te sentir autrement…",
+          "audio": "ER5-FR-202",
+          "face": "happy"
+        },
+        {
+          "text": "Aussi, il est important d’observer les autres autour de toi et d’essayer de comprendre ce qui les rend fâchés, tristes, heureux, etc…",
+          "audio": "ER5-FR-203",
+          "face": "happy"
+        },
+        {
+          "text": "Est-ce que tu as rempli la fiche que mon assistante t’a donnée la dernière fois avec tes émotions ?",
+          "audio": "ER5-FR-204",
+          "choices": [
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Super !",
+                  "audio": "ER5-FR-205",
+                  "face": "happy"
+                },
+                {
+                  "text": "Réfléchir à tes émotions t’aidera à mieux te connaître et à te sentir mieux.",
+                  "audio": "ER5-FR-206",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ça c’est dommage !+",
+                  "audio": "ER5-FR-13",
+                  "face": "sad"
+                },
+                {
+                  "text": "ooh…",
+                  "audio": "ER5-FR-14"
+                },
+                {
+                  "text": "Réfléchir à tes émotions t’aidera à mieux te connaître et à te sentir mieux.",
+                  "audio": "ER5-FR-206",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "{{TODO}}",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux pas me le dire ?! En tout cas…",
+                  "audio": "ER5-FR-7"
+                },
+                {
+                  "text": "Réfléchir à tes émotions t’aidera à mieux te connaître et à te sentir mieux.",
+                  "audio": "ER5-FR-206",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Continue à réfléchir à tes émotions. Tu peux les noter si ça t’aide. Mais tu peux aussi juste faire le bilan de la journée pour toi-même… Tu verras que le plus tu penses à tes émotions, plus tu sauras réagir aux situations de la vie.",
+          "audio": "ER5-FR-207",
+          "face": "happy"
+        },
+        {
+          "text": "Pour la prochaine fois je veux que tu fasses un autre exercice. Mon assistante va te donner une feuille qui ressemble un peu à celle que je t’ai donnée la dernière fois. Mais cette fois-ci, à la place de penser à tes propres émotions, je veux que pour chaque jour de la semaine, tu marques une émotion que tu as remarquée chez quelqu’un d’autre. Je veux aussi que tu réfléchisses aux raisons possibles pour lesquelles la personne a eu cette émotion. Tu peux utiliser juste des mots-clés si tu veux. Ce n’est pas un très gros devoir.",
+          "audio": "ER5-FR-208",
+          "face": "happy"
+        },
+        {
+          "text": "Ben voilà ! C’est tout pour aujourd’hui ! Bonnes émotions et à la prochaine !+",
+          "audio": "ER5-FR-209",
+          "gesture": "wave hello",
+          "face": "happy"
+        }
+      ]
+    }
+  ]
+}

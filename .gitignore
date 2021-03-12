@@ -56,3 +56,7 @@ sysinfo.txt
 crashlytics-build.properties
 
 .DS_Store
+node_modules/
+TextMesh Pro/
+TextMesh Pro.meta
+

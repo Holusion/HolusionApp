@@ -1,0 +1,3963 @@
+{
+  "stages": [
+    {
+      "title": "2.1_Introduction",
+      "blocks": [
+        {
+          "text": "Bonjour",
+          "audio": "ER2-FR-001",
+          "gesture": "wave hello",
+          "face": "smile"
+        },
+        {
+          "text": "C’est bien de te revoir!",
+          "audio": "ER2-FR-002",
+          "face": "smile"
+        },
+        {
+          "text": "La dernière fois que nous ne sommes vus nous avons commencé à parler des émotions. Nous avons vu pourquoi les émotions sont importantes et comment elles peuvent nous aider.",
+          "audio": "ER2-FR-003"
+        },
+        {
+          "text": "Nous avons vu que les émotions servent à deux choses.",
+          "audio": "ER2-FR-004"
+        },
+        {
+          "text": "Te rappelles-tu encore ?",
+          "audio": "ER2-FR-",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui !...",
+                  "audio": "ER2-FR-"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non…pas tout à fait",
+                  "audio": "ER2-FR-"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne te rappelles plus ?",
+                  "audio": "ER2-FR-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "La première c’était que les émotions nous servent à dire aux autres comment nous nous sentons en général. Si nous nous sentons…",
+          "audio": "ER2-FR-005"
+        },
+        {
+          "text": "heureux",
+          "audio": "ER2-FR-006",
+          "face": "happy"
+        },
+        {
+          "text": "« iiih ! »",
+          "audio": "ER2-FR-007",
+          "gesture": "happy sound"
+        },
+        {
+          "text": "tristes",
+          "audio": "ER2-FR-008",
+          "face": "sad"
+        },
+        {
+          "text": "« mmmh…»",
+          "audio": "ER2-FR-009",
+          "gesture": "sad sound"
+        },
+        {
+          "text": "fâchés",
+          "audio": "ER2-FR-010",
+          "face": "angry"
+        },
+        {
+          "text": "« grrr ! »",
+          "audio": "ER2-FR-011",
+          "gesture": "angry sound"
+        },
+        {
+          "text": "surpris…",
+          "audio": "ER2-FR-012",
+          "face": "surprised"
+        },
+        {
+          "text": "« aaah ! »",
+          "audio": "ER2-FR-013",
+          "gesture": "surprised sound"
+        },
+        {
+          "text": "Et comment nous nous sentons envers les autres personnes. Si nous sommes…",
+          "audio": "ER2-FR-014"
+        },
+        {
+          "text": "contents avec eux",
+          "audio": "ER2-FR-015",
+          "face": "happy"
+        },
+        {
+          "text": "fâchés avec quelque chose qu’ils ont dit",
+          "audio": "ER2-FR-016",
+          "face": "angry"
+        },
+        {
+          "text": "ou peut être dégoutés avec quelque chose qu’ils nous ont montré…",
+          "audio": "ER2-FR-017",
+          "face": "disgusted"
+        },
+        {
+          "text": "« blegh ! »",
+          "audio": "ER2-FR-018",
+          "gesture": "disgusted sound"
+        },
+        {
+          "text": "La deuxième c’était que les émotions nous aident à savoir comment les autres se sentent.",
+          "audio": "ER2-FR-019"
+        },
+        {
+          "text": "Par la façon dont les autres personnes se comportent, ce qu’elles disent, et leur visage nous pouvons savoir si elles sont…",
+          "audio": "ER2-FR-020"
+        },
+        {
+          "text": "heureuses",
+          "audio": "ER2-FR-021",
+          "face": "happy"
+        },
+        {
+          "text": "effrayées+",
+          "audio": "ER2-FR-022",
+          "face": "afraid"
+        },
+        {
+          "text": "« ah ! »",
+          "audio": "ER2-FR-023",
+          "gesture": "afraid sound"
+        },
+        {
+          "text": "fâchées",
+          "audio": "ER2-FR-024",
+          "face": "angry"
+        },
+        {
+          "text": "etc.",
+          "audio": "ER2-FR-025"
+        },
+        {
+          "text": "Pour ça nous avons vu comment nous pouvons apercevoir différentes émotions dans le visage. La façon dont nous bougeons notre visage s’appelle faire des expressions et ces expressions nous indiquent des émotions.",
+          "audio": "ER2-FR-026"
+        },
+        {
+          "text": "Par exemple, un sourire",
+          "audio": "ER2-FR-027",
+          "face": "happy"
+        },
+        {
+          "text": "indique que la personne est heureuse.",
+          "audio": "ER2-FR-028"
+        },
+        {
+          "text": "Montrer les dents et froncer les sourcils",
+          "audio": "ER2-FR-029",
+          "face": "angry"
+        },
+        {
+          "text": "indique que la personne est fâchée.",
+          "audio": "ER2-FR-030"
+        },
+        {
+          "text": "Et des grands yeux avec la bouche grande ouverte",
+          "audio": "ER2-FR-031",
+          "face": "surprised"
+        },
+        {
+          "text": "indiquent que la personne est surprise.",
+          "audio": "ER2-FR-032"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause ?",
+          "audio": "ER1-FR-034",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER1-FR-036",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER1-FR-035",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2.2_Les_émotions dans le visage",
+      "blocks": [
+        {
+          "text": "Exercice nécessitant un jeu de carte. Munissiez-vous des cartes 2.1 avant de commencer (total 5 cartes)"
+        },
+        {
+          "text": "Les expressions dans le visage sont une des façons de montrer comment on se sent aux autres et de savoir comment les autres se sentent. Par exemple, quand tu es fâché tu peux faire un visage comme ça.",
+          "audio": "ER2-FR-033",
+          "face": "angry"
+        },
+        {
+          "text": "Est-ce que tu peux me dire une autre chose que tu fais quand tu es fâché ?",
+          "audio": "ER2-FR-034",
+          "choices": [
+            {
+              "btn": "Réponse intéressante",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, par exemple !+",
+                  "audio": "ER2-FR-035",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire",
+                  "audio": "ER2-FR-037",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Réponse inappropriée",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pour montrer que tu es fâché tu peux aussi faire des gestes comme ça par exemple",
+          "audio": "ER2-FR-040",
+          "gesture": "hands on hips"
+        },
+        {
+          "text": "ou comme ça",
+          "audio": "ER2-FR-041",
+          "gesture": "fists raised"
+        },
+        {
+          "text": "Faisons un jeu. Mon assistante va poser quelques images sur la table.",
+          "audio": "ER2-FR-042",
+          "choices": [
+            {
+              "btn": "Continuer",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Je veux que tu en prennes une. Tu me la montres et tu me dis quelle émotion la personne ressent. Je te dirais si c’est la bonne émotion ou pas et tu recommences avec une autre image. Nous allons faire toutes les images les unes après les autres. On y va !",
+                  "audio": "ER2-FR-043"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 1/5",
+          "choices": [
+            {
+              "btn": "Commencer",
+              "score": 0,
+              "res": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Montre-moi une image et dis-moi quelle est l’émotion ressentie.",
+          "audio": "ER2-FR-044",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, c’est ça ! très bien !+",
+                  "audio": "ER2-FR-045",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Peur",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la peur",
+                  "audio": "ER2-FR-047"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Joie",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la joie",
+                  "audio": "ER2-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Colère",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la colère",
+                  "audio": "ER2-FR-051"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Tristesse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la tristesse",
+                  "audio": "ER2-FR-052"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Neutre",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est neutre",
+                  "audio": "ER2-FR-053"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 2/5"
+        },
+        {
+          "text": "Montre-moi une autre image.",
+          "audio": "ER2-FR-054",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "smile"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Peur",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la peur",
+                  "audio": "ER2-FR-047"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Joie",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la joie",
+                  "audio": "ER2-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Colère",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la colère",
+                  "audio": "ER2-FR-051"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Tristesse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la tristesse",
+                  "audio": "ER2-FR-052"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Neutre",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est neutre",
+                  "audio": "ER2-FR-053"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 3/5"
+        },
+        {
+          "text": "Montre-moi encore une autre image.",
+          "audio": "ER2-FR-054",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Exactement !+",
+                  "audio": "ER2-FR-056",
+                  "face": "smile"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Peur",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la peur",
+                  "audio": "ER2-FR-047"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Joie",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la joie",
+                  "audio": "ER2-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Colère",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la colère",
+                  "audio": "ER2-FR-051"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Tristesse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la tristesse",
+                  "audio": "ER2-FR-052"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Neutre",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est neutre",
+                  "audio": "ER2-FR-053"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 4/5"
+        },
+        {
+          "text": "Montre-moi encore une autre image.",
+          "audio": "ER2-FR-054",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, c’est ça ! très bien !+",
+                  "audio": "ER2-FR-045",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Peur",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la peur",
+                  "audio": "ER2-FR-047"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Joie",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la joie",
+                  "audio": "ER2-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Colère",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la colère",
+                  "audio": "ER2-FR-051"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Tristesse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la tristesse",
+                  "audio": "ER2-FR-052"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Neutre",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est neutre",
+                  "audio": "ER2-FR-053"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 5/5"
+        },
+        {
+          "text": "Montre-moi encore une autre image.",
+          "audio": "ER2-FR-054",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "smile"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Peur",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la peur",
+                  "audio": "ER2-FR-047"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Joie",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la joie",
+                  "audio": "ER2-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Colère",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la colère",
+                  "audio": "ER2-FR-051"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Tristesse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est de la tristesse",
+                  "audio": "ER2-FR-052"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse - Neutre",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ça c’est neutre",
+                  "audio": "ER2-FR-053"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause ?",
+          "audio": "ER2-FR-057",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER2-FR-058",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER2-FR-059",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ne pas oublier de récupérer la série de carte et de la ranger dans l’emplacement prévu à cet effet"
+        },
+        {
+          "text": "• OK",
+          "choices": [
+            {
+              "btn": "Commencer",
+              "score": 0,
+              "res": [
+                {
+                  "text": "2.3s Les émotions dans leur contexte"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Une autre façon qui permet aussi de montrer à quelqu’un comment on se sent c’est de le dire. Par exemple, pour montrer à quelqu’un que tu es fâché tu peux dire : « Tu m’énerves ! »ou « Je ne veux plus te parler ! » [neutral voice]",
+          "audio": "ER2-FR-060",
+          "gesture": "neutral voice"
+        },
+        {
+          "text": "N° 1/7"
+        },
+        {
+          "text": "« J’ai reçu une très bonne nouvelle que j’attendais depuis longtemps ! »",
+          "audio": "ER2-FR-062"
+        },
+        {
+          "text": "Comment est-ce que tu crois que je me sens ?",
+          "audio": "ER2-FR-063",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Correct !+",
+                  "audio": "ER2-FR-064",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis heureuse.",
+                  "audio": "ER2-FR-065",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis heureuse.",
+                  "audio": "ER2-FR-065",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER2-FR-037",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis heureuse.",
+                  "audio": "ER2-FR-065",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 2/7"
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« Je ne vois pas ma meilleure amie depuis très longtemps. »",
+          "audio": "ER2-FR-067"
+        },
+        {
+          "text": "À ton avis, comment est-ce que je me sens ?",
+          "audio": "ER2-FR-068",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis triste.",
+                  "audio": "ER2-FR-069",
+                  "face": "sad"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.",
+                  "audio": "ER2-FR-048"
+                },
+                {
+                  "text": "« Ooh… »+",
+                  "audio": "ER2-FR-038",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis triste.",
+                  "audio": "ER2-FR-069",
+                  "face": "sad"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas… +",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis triste.",
+                  "audio": "ER2-FR-069",
+                  "face": "sad"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 3/7"
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« Quand j’ai mangé une pomme la dernière fois j’ai vu qu’il y avait un ver dedans. »",
+          "audio": "ER2-FR-070"
+        },
+        {
+          "text": "Dis-moi comment je me sens.",
+          "audio": "ER2-FR-071",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !+",
+                  "audio": "ER2-FR-072",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis dégoutée.",
+                  "audio": "ER2-FR-073",
+                  "face": "disgusted"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis dégoutée.",
+                  "audio": "ER2-FR-073",
+                  "face": "disgusted"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER2-FR-037",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis dégoutée.",
+                  "audio": "ER2-FR-073",
+                  "face": "disgusted"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 4/7"
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« J’en ai marre que personne ne m’écoute. »",
+          "audio": "ER2-FR-074"
+        },
+        {
+          "text": "Comment est-ce que tu crois que je me sens ?",
+          "audio": "ER2-FR-063",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Correct !+",
+                  "audio": "ER2-FR-064",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis fâchée.",
+                  "audio": "ER2-FR-075",
+                  "face": "angry"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis fâchée.",
+                  "audio": "ER2-FR-075",
+                  "face": "angry"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis fâchée.",
+                  "audio": "ER2-FR-075",
+                  "face": "angry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 5/7"
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« Je dois faire une présentation importante devant toute l’école. »",
+          "audio": "ER2-FR-076"
+        },
+        {
+          "text": "Dis-moi comment je me sens.",
+          "audio": "ER2-FR-071",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "J’ai de la peur.",
+                  "audio": "ER2-FR-077",
+                  "face": "afraid"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "J’ai de la peur.",
+                  "audio": "ER2-FR-077",
+                  "face": "afraid"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…++",
+                  "audio": "ER2-FR-037",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "J’ai de la peur.",
+                  "audio": "ER2-FR-077",
+                  "face": "afraid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 6/7"
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« Quand j’ai ouvert la boîte j’ai trouvé des choses que je n’avais jamais vues avant. »",
+          "audio": "ER2-FR-078"
+        },
+        {
+          "text": "À ton avis, comment est-ce que je me sens ?",
+          "audio": "ER2-FR-068",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !+",
+                  "audio": "ER2-FR-072",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis surprise.",
+                  "audio": "ER2-FR-079",
+                  "face": "surprised"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis surprise.",
+                  "audio": "ER2-FR-079",
+                  "face": "surprised"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis surprise.",
+                  "audio": "ER2-FR-079",
+                  "face": "surprised"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 7/7"
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« J’ai pris le bus pour aller à l’école. »",
+          "audio": "ER2-FR-080"
+        },
+        {
+          "text": "Dis-moi comment je me sens.",
+          "audio": "ER2-FR-071",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Correct !+",
+                  "audio": "ER2-FR-064",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis neutre.",
+                  "audio": "ER2-FR-081",
+                  "face": "neutral"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis neutre.",
+                  "audio": "ER2-FR-081",
+                  "face": "neutral"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…++",
+                  "audio": "ER2-FR-037",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis neutre.",
+                  "audio": "ER2-FR-081",
+                  "face": "neutral"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Optionnel => si en dessous de 50% de bonnes réponse"
+        },
+        {
+          "text": "(S’arrêter ici si 50% de bonnes réponses sinon continuer jusqu’à la fin ?)"
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« J’ai marché sur du caca. »",
+          "audio": "ER2-FR-082"
+        },
+        {
+          "text": "Comment est-ce que tu crois que je me sens ?",
+          "audio": "ER2-FR-063",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis dégoutée.",
+                  "audio": "ER2-FR-073",
+                  "face": "disgusted"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis dégoutée.",
+                  "audio": "ER2-FR-073",
+                  "face": "disgusted"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut être pas me le dire+",
+                  "audio": "ER2-FR-037",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis dégoutée.",
+                  "audio": "ER2-FR-073",
+                  "face": "disgusted"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« Je ne veux pas rester toute seule la nuit à la maison. »",
+          "audio": "ER2-FR-084"
+        },
+        {
+          "text": "À ton avis, comment est-ce que je me sens ?",
+          "audio": "ER2-FR-068",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !+",
+                  "audio": "ER2-FR-072",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "J’ai de la peur.",
+                  "audio": "ER2-FR-077",
+                  "face": "afraid"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "J’ai de la peur.",
+                  "audio": "ER2-FR-077",
+                  "face": "afraid"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas… …++",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "J’ai de la peur.",
+                  "audio": "ER2-FR-077",
+                  "face": "afraid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« Mon papa est parti pour un long voyage. »",
+          "audio": "ER2-FR-086"
+        },
+        {
+          "text": "Dis-moi comment je me sens.",
+          "audio": "ER2-FR-071",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Correct !+",
+                  "audio": "ER2-FR-064",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis triste.",
+                  "audio": "ER2-FR-069",
+                  "face": "sad"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis triste.",
+                  "audio": "ER2-FR-069",
+                  "face": "sad"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut être pas me le dire+",
+                  "audio": "ER2-FR-037",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis triste.",
+                  "audio": "ER2-FR-069",
+                  "face": "sad"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« J’ai découvert que finalement mon petit chaton est une femelle. »",
+          "audio": "ER2-FR-088"
+        },
+        {
+          "text": "Comment est-ce que tu crois que je me sens ?",
+          "audio": "ER2-FR-063",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis surprise.",
+                  "audio": "ER2-FR-079",
+                  "face": "surprised"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis surprise.",
+                  "audio": "ER2-FR-079",
+                  "face": "surprised"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas… …++",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis surprise.",
+                  "audio": "ER2-FR-079",
+                  "face": "surprised"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« J’ai eu une super note à note à l’examen ».",
+          "audio": "ER2-FR-090"
+        },
+        {
+          "text": "À ton avis, comment est-ce que je me sens ?",
+          "audio": "ER2-FR-068",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !+",
+                  "audio": "ER2-FR-072",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis heureuse.",
+                  "audio": "ER2-FR-065",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis heureuse.",
+                  "audio": "ER2-FR-065",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut être pas me le dire+",
+                  "audio": "ER2-FR-037",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis heureuse.",
+                  "audio": "ER2-FR-065",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« Mon chien s’appelle Snoopy. »",
+          "audio": "ER2-FR-092"
+        },
+        {
+          "text": "Dis-moi comment je me sens.",
+          "audio": "ER2-FR-071",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Correct !+",
+                  "audio": "ER2-FR-064",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis neutre.",
+                  "audio": "ER2-FR-081",
+                  "face": "neutral"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ne suis neutre.",
+                  "audio": "ER2-FR-081",
+                  "face": "neutral"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas… …++",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Ne suis neutre.",
+                  "audio": "ER2-FR-081",
+                  "face": "neutral"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Une autre situation",
+          "audio": "ER2-FR-"
+        },
+        {
+          "text": "« Tu m’as fait perdre le jeu ! »",
+          "audio": "ER2-FR-094"
+        },
+        {
+          "text": "Comment est-ce que tu crois que je me sens ?",
+          "audio": "ER2-FR-063",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "Je suis fâchée.",
+                  "audio": "ER2-FR-075",
+                  "face": "angry"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis fâchée.",
+                  "audio": "ER2-FR-075",
+                  "face": "angry"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut être pas me le dire+",
+                  "audio": "ER2-FR-037",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je suis fâchée.",
+                  "audio": "ER2-FR-075",
+                  "face": "angry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause ?",
+          "audio": "ER2-FR-057",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER2-FR-058",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER2-FR-059",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2.4s Les émotions dans la timbre de la voix"
+        },
+        {
+          "text": "Encore une autre façon de montrer comment on se sent est le ton de la voix ! Quand nous racontons quelque chose qui nous rend heureux",
+          "audio": "ER2-FR-096",
+          "face": "happy"
+        },
+        {
+          "text": "nous parlons d’une façon différente de quand nous racontons quelque chose qui nous rend tristes.",
+          "audio": "ER2-FR-097",
+          "face": "sad"
+        },
+        {
+          "text": "Des phrases qui n’ont pas de sens !",
+          "audio": "ER2-FR-099",
+          "face": "confused"
+        },
+        {
+          "text": "N’essaye pas de comprendre ce qui est dit dans les phrases. Ici le but est de savoir quelle est l’émotion ressentie. Après chaque phrase tu dois me dire quelle est l’émotion et je te dirais si c’est correct.",
+          "audio": "ER2-FR-100"
+        },
+        {
+          "text": "Fais bien attention. Ça va un peu vite parfois. On y va ?"
+        },
+        {
+          "text": "N° 1/7"
+        },
+        {
+          "audio": "ER2-FR-101",
+          "gesture": "Pseudo-28 anger",
+          "text": "[Pseudo-28 anger]"
+        },
+        {
+          "text": "Dis-moi quelle est l’émotion ressentie.",
+          "audio": "ER2-FR-102",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Correct !+",
+                  "audio": "ER2-FR-064",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est de la colère.",
+                  "audio": "ER2-FR-103",
+                  "face": "angry"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la colère.",
+                  "audio": "ER2-FR-103",
+                  "face": "angry"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la colère.",
+                  "audio": "ER2-FR-103",
+                  "face": "angry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 2/7"
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-104",
+          "gesture": "Pseudo-44 disgust",
+          "text": "[Pseudo-44 disgust]"
+        },
+        {
+          "text": "Quelle est l’émotion ressentie ici ?",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est du dégoût.",
+                  "audio": "ER2-FR-106",
+                  "face": "disgusted"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est du dégoût.",
+                  "audio": "ER2-FR-106",
+                  "face": "disgusted"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est du dégoût.",
+                  "audio": "ER2-FR-106",
+                  "face": "disgusted"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 3/7"
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-107",
+          "gesture": "Pseudo-63 fear",
+          "text": "[Pseudo-63 fear]"
+        },
+        {
+          "text": "Dis-moi quelle est l’émotion ressentie.",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !+",
+                  "audio": "ER2-FR-072",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est de la peur",
+                  "audio": "ER2-FR-108",
+                  "face": "afraid"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la peur.",
+                  "audio": "ER2-FR-108",
+                  "face": "afraid"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la peur.",
+                  "audio": "ER2-FR-108",
+                  "face": "afraid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 4/7"
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-109",
+          "gesture": "Pseudo-81 joy",
+          "text": "[Pseudo-81 joy]"
+        },
+        {
+          "text": "Quelle est l’émotion ressentie ici ?",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Correct !+",
+                  "audio": "ER2-FR-064",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est de la joie.",
+                  "audio": "ER2-FR-110",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la joie.",
+                  "audio": "ER2-FR-110",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la joie.",
+                  "audio": "ER2-FR-110",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 5/7"
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-111",
+          "gesture": "Pseudo-99 neutral",
+          "text": "[Pseudo-99 neutral]"
+        },
+        {
+          "text": "Dis-moi quelle est l’émotion ressentie.",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est neutre.",
+                  "audio": "ER2-FR-112",
+                  "face": "neutral"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est neutre.",
+                  "audio": "ER2-FR-112",
+                  "face": "neutral"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est neutre.",
+                  "audio": "ER2-FR-112",
+                  "face": "neutral"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 6/7"
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-113",
+          "gesture": "Pseudo-132 sadness",
+          "text": "[Pseudo-132 sadness]"
+        },
+        {
+          "text": "Quelle est l’émotion ressentie ici ?",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !+",
+                  "audio": "ER2-FR-072",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est de la tristesse.",
+                  "audio": "ER2-FR-114",
+                  "face": "sad"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la tristesse.",
+                  "audio": "ER2-FR-114",
+                  "face": "sad"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la tristesse.",
+                  "audio": "ER2-FR-114",
+                  "face": "sad"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 7/7"
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-115",
+          "gesture": "Pseudo-163 surprise",
+          "text": "[Pseudo-163 surprise]"
+        },
+        {
+          "text": "Dis-moi quelle est l’émotion ressentie.",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Correct !+",
+                  "audio": "ER2-FR-064",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est de la surprise.",
+                  "audio": "ER2-FR-116",
+                  "face": "surprised"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la surprise.",
+                  "audio": "ER2-FR-116",
+                  "face": "surprised"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la surprise.",
+                  "audio": "ER2-FR-116",
+                  "face": "surprised"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Optionnel => si en dessous de 50% de bonnes réponse"
+        },
+        {
+          "text": "(S’arrêter ici si 50% de bonnes réponses sinon continuer jusqu’à la fin ?)"
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-117",
+          "gesture": "Pseudo-109 neutral",
+          "text": "[Pseudo-109 neutral]"
+        },
+        {
+          "text": "Quelle est l’émotion ressentie ici ?",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est neutre.",
+                  "audio": "ER2-FR-079",
+                  "face": "neutral"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est neutre.",
+                  "audio": "ER2-FR-079",
+                  "face": "neutral"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est neutre.",
+                  "audio": "ER2-FR-079",
+                  "face": "neutral"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-118",
+          "gesture": "Pseudo-49 disgust",
+          "text": "[Pseudo-49 disgust]"
+        },
+        {
+          "text": "Dis-moi quelle est l’émotion ressentie.",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !+",
+                  "audio": "ER2-FR-072",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est du dégoût.",
+                  "audio": "ER2-FR-076",
+                  "face": "disgusted"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est du dégoût.",
+                  "audio": "ER2-FR-076",
+                  "face": "disgusted"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est du dégoût.",
+                  "audio": "ER2-FR-076",
+                  "face": "disgusted"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-119",
+          "gesture": "Pseudo-137 sadness",
+          "text": "[Pseudo-137 sadness]"
+        },
+        {
+          "text": "Quelle est l’émotion ressentie ici ?",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Correct !+",
+                  "audio": "ER2-FR-064",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est de la tristesse.",
+                  "audio": "ER2-FR-080",
+                  "face": "sad"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la tristesse.",
+                  "audio": "ER2-FR-080",
+                  "face": "sad"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la tristesse.",
+                  "audio": "ER2-FR-080",
+                  "face": "sad"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-120",
+          "gesture": "Pseudo-68 fear",
+          "text": "[Pseudo-68 fear]"
+        },
+        {
+          "text": "Dis-moi quelle est l’émotion ressentie.",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est de la peur.",
+                  "audio": "ER2-FR-077",
+                  "face": "afraid"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la peur.",
+                  "audio": "ER2-FR-077",
+                  "face": "afraid"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C'est de la peur",
+                  "audio": "ER2-FR-077",
+                  "face": "disgusted"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-121",
+          "gesture": "Pseudo-148 surprise",
+          "text": "[Pseudo-148 surprise]"
+        },
+        {
+          "text": "Quelle est l’émotion ressentie ici ?",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est ça !+",
+                  "audio": "ER2-FR-072",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est de la surprise.",
+                  "audio": "ER2-FR-081",
+                  "face": "surprised"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas vraiment ça.+",
+                  "audio": "ER2-FR-046",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la surprise.",
+                  "audio": "ER2-FR-081",
+                  "face": "surprised"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la surprise.",
+                  "audio": "ER2-FR-081",
+                  "face": "surprised"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-122",
+          "gesture": "Pseudo-31 anger",
+          "text": "[Pseudo-31 anger]"
+        },
+        {
+          "text": "Dis-moi quelle est l’émotion ressentie.",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Correct !+",
+                  "audio": "ER2-FR-064",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est de la colère.",
+                  "audio": "ER2-FR-075",
+                  "face": "angry"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas exactement ça.+",
+                  "audio": "ER2-FR-050",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la colère.",
+                  "audio": "ER2-FR-075",
+                  "face": "angry"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la colère.",
+                  "audio": "ER2-FR-075",
+                  "face": "angry"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Encore une autre"
+        },
+        {
+          "audio": "ER2-FR-123",
+          "gesture": "Pseudo-77 joy",
+          "text": "[Pseudo-77 joy]"
+        },
+        {
+          "text": "Quelle est l’émotion ressentie ici ?",
+          "audio": "ER2-FR-105",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                },
+                {
+                  "text": "C’est de la joie.",
+                  "audio": "ER2-FR-078",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER2-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la joie.",
+                  "audio": "ER2-FR-078",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut être pas…+",
+                  "audio": "ER2-FR-066",
+                  "face": "confused"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "C’est de la joie.",
+                  "audio": "ER2-FR-078",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause ?",
+          "audio": "ER2-FR-057",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER2-FR-058",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER2-FR-059",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2.4_Les_émotions dans le corps",
+      "blocks": [
+        {
+          "text": "Exercice nécessitant un jeu de carte. Munissiez-vous des cartes 2.2 avant de commencer (total 6 cartes)"
+        },
+        {
+          "text": "Nous avons donc vu qu’on peut communiquer aux autres comment on se sent et qu’on peut savoir comment les autres se sentent grâce à plusieurs indices : les expressions dans le visage, les gestes du corps, ce que les gens disent et comment les gens le disent - le ton de leur voix.",
+          "audio": "ER2-FR-124"
+        },
+        {
+          "text": "Mais ce n’est pas tout ! Il y a encore d’autres indices à l’intérieur de nous qui nous aident à comprendre comment nous nous sentons. Ces indices seulement nous-mêmes pouvons les sentir.",
+          "audio": "ER2-FR-125"
+        },
+        {
+          "text": "Au contraire des autres indices que nous avons vu jusqu’à présent, qui nous permettent de dire aux autres comment nous nous sentons, les indices que je vais maintenant te présenter nous permettent surtout à nous-mêmes de savoir comment nous nous sentons. Ces indices sont nos pensées et ce qu’il se passe dans notre corps.",
+          "audio": "ER2-FR-126"
+        },
+        {
+          "text": "Ou négatives comme quand tu es fâché",
+          "audio": "ER2-FR-128",
+          "face": "angry"
+        },
+        {
+          "text": "ou triste avec quelque chose",
+          "audio": "ER2-FR-129",
+          "face": "sad"
+        },
+        {
+          "text": "Parfois la façon dont on pense à une situation fait qu’on se sent plus fâché qu’avant.",
+          "audio": "ER2-FR-130",
+          "face": "angry"
+        },
+        {
+          "text": "D’autres fois, cela fait qu’on se sente moins fâché.",
+          "audio": "ER2-FR-131",
+          "face": "neutral"
+        },
+        {
+          "text": "Par exemple, imagine que tu vas chercher ton sac avec ta collation et que ta collation n’est pas dans le sac – tu te sens peut-être un peu embêté. Maintenant si tu penses que quelqu’un te la pris de ton sac, tu te sentiras encore plus fâché",
+          "audio": "ER2-FR-132",
+          "face": "angry"
+        },
+        {
+          "text": "Par contre, si tu penses que tu l’as peut être oubliée à la maison, tu te sentiras toujours un peu embêté mais moins fâché qu’avant.",
+          "audio": "ER2-FR-133",
+          "face": "happy"
+        },
+        {
+          "text": "Donc nos pensées ont un grand pouvoir sur comment on se sent – la plupart du temps c’est la façon dont on pense aux problèmes que va faire qu’on va se sentir bien ou mal.",
+          "audio": "ER2-FR-134"
+        },
+        {
+          "text": "Dans quelques semaines je vais t’apprendre comment tu peux contrôler tes pensées pour que tu te sentes mieux.",
+          "audio": "ER2-FR-135",
+          "face": "smile"
+        },
+        {
+          "text": "Mais aujourd’hui je veux encore te parler d’une autre chose.",
+          "audio": "ER2-FR-136"
+        },
+        {
+          "text": "Aujourd’hui je veux encore te parler d’une autre chose : les signes que ton corps t’envoie et qui t’aident à savoir comment tu te sens.",
+          "audio": "ER2-FR-137"
+        },
+        {
+          "text": "Est-ce que tu peux me donner des exemples de choses que tu sens dans ton corps quand tu as des émotions ?",
+          "audio": "ER2-FR-138",
+          "choices": [
+            {
+              "btn": "Réponse intéressante",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, par exemple ! Mais il y a encore d’autres !",
+                  "audio": "ER2-FR-139",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse ou inappropriée",
+              "score": 0,
+              "res": [
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Est-ce que tu ne sais pas ?+",
+                  "audio": "ER2-FR-141",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Quand tu as des émotions, qu’elles soient positives ou négatives, ton corps réagit. Tu peux sentir des changements de température (avoir chaud et transpirer ou avoir froid et trembler ou encore avoir la chair de poule), tu peux sentir que ta respiration change (respiration rapide, manque de respiration, ou respiration instable), tu peux sentir que ton cœur bat plus fort ou tu peux avoir des maux de ventre et des nausées.",
+          "audio": "ER2-FR-142"
+        },
+        {
+          "text": "Maintenant, dans le jeu suivant mon assistante va te présenter de nouvelles images. Je veux que tu regardes ces images.",
+          "audio": "ER2-FR-143",
+          "choices": [
+            {
+              "btn": "Continuer",
+              "score": 0,
+              "res": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 1/6"
+        },
+        {
+          "text": "Dis-moi quelles réactions du corps peut-on avoir pour la…",
+          "audio": "ER2-FR-145"
+        },
+        {
+          "text": "Colère",
+          "audio": "ER2-FR-085",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Réponse incomplète",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Pas mal ! Mais ce n’est pas tout !",
+                  "audio": "ER2-FR-"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER2-FR-147",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "avec la colère tu peux sentir de la chaleur et transpirer, tu peux trembler de colère, avoir une respiration rapide ou instable et le cœur qui bat plus vite.",
+          "audio": "ER2-FR-146"
+        },
+        {
+          "text": "N° 2/6"
+        },
+        {
+          "text": "Encore"
+        },
+        {
+          "text": "Dis-moi quelles réactions du corps peut-on avoir pour la…",
+          "audio": "ER2-FR-145"
+        },
+        {
+          "text": "Joie",
+          "audio": "ER2-FR-087",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Réponse incomplète",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Pas mal ! Mais ce n’est pas tout !",
+                  "audio": "ER2-FR-"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER2-FR-147",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Avec la joie tu peux sentir tellement heureux que tu as de chaleur et transpires, tu peux aussi avoir des frissons, ta respiration peut devenir plus rapide et ton cœur peut battre plus vite que d’habitude.",
+          "audio": "ER2-FR-149"
+        },
+        {
+          "text": "N° 3/6"
+        },
+        {
+          "text": "Encore"
+        },
+        {
+          "text": "Dis-moi quelles réactions du corps peut-on avoir pour la…",
+          "audio": "ER2-FR-145"
+        },
+        {
+          "text": "Peur",
+          "audio": "ER2-FR-089",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Réponse incomplète",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Pas mal ! Mais ce n’est pas tout !",
+                  "audio": "ER2-FR-"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER2-FR-147",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "avec la peur ton corps peut réagir de différentes façons. Au faite, toutes les réactions qui sont sur les images peuvent arriver avec la peur. Ces réactions dépendent des personnes et aussi de l’intensité de la peur. Plus la peur est forte, plus ton corps peut avoir des réactions, et plus ces réactions sont fortes.",
+          "audio": "ER2-FR-150"
+        },
+        {
+          "text": "N° 4/6"
+        },
+        {
+          "text": "Encore"
+        },
+        {
+          "text": "Dis-moi quelles réactions du corps peut-on avoir pour la…",
+          "audio": "ER2-FR-145"
+        },
+        {
+          "text": "Surprise",
+          "audio": "ER2-FR-091",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Réponse incomplète",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Pas mal ! Mais ce n’est pas tout !",
+                  "audio": "ER2-FR-"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER2-FR-147",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "avec la surprise tu as souvent des changements surtout au niveau de la respiration et du battement du cœur. Ta respiration peut devenir plus rapide ou instable et ton cœur peut battre plus vite.",
+          "audio": "ER2-FR-151"
+        },
+        {
+          "text": "N° 5/6"
+        },
+        {
+          "text": "Encore"
+        },
+        {
+          "text": "Dis-moi quelles réactions du corps peut-on avoir pour la…",
+          "audio": "ER2-FR-145"
+        },
+        {
+          "text": "Tristesse",
+          "audio": "ER2-FR-093",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Réponse incomplète",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Pas mal ! Mais ce n’est pas tout !",
+                  "audio": "ER2-FR-"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER2-FR-147",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "avec la tristesse ta respiration peut devenir instable et tu peux aussi avoir des nausées, des pertes d’appétit, des maux de ventre ou même la diarrhée.",
+          "audio": "ER2-FR-152"
+        },
+        {
+          "text": "N° 6/6"
+        },
+        {
+          "text": "Encore"
+        },
+        {
+          "text": "Dis-moi quelles réactions du corps peut-on avoir pour le…",
+          "audio": "ER2-FR-153"
+        },
+        {
+          "text": "Dégout",
+          "audio": "ER2-FR-095",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER2-FR-055",
+                  "face": "happy"
+                },
+                {
+                  "text": "« Yupi ! »",
+                  "audio": "ER2-FR-036",
+                  "gesture": "dance"
+                }
+              ]
+            },
+            {
+              "btn": "Réponse incomplète",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Pas mal ! Mais ce n’est pas tout !",
+                  "audio": "ER2-FR-"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais peut-être pas ?+",
+                  "audio": "ER2-FR-147",
+                  "face": "sad"
+                },
+                {
+                  "text": "« Ooh… »",
+                  "audio": "ER2-FR-038"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER2-FR-039",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "quand tu es dégouté par quelque chose que tu as mangé, que tu as vu ou que tu as senti, tu peux sentir des changements de température comme de la chaleur et des sueurs ou encore sentir du froid et avoir des frissons. Ta respiration et ton cœur peuvent devenir plus rapides, tu peux avoir des vertiges, des nausées et même perdre l’appétit.",
+          "audio": "ER2-FR-154"
+        },
+        {
+          "text": "Mais il existe d’autres situations où tu peux ressentir les mêmes signes dans ton corps sans avoir eu d’émotion forte. Par exemple, lorsque tu es malade (tremblements, sueurs, froid, nausées, maux de ventre, perte d’appétit, diarrhée), ou quand tu as fait du sport (cœurs qui bat vite, sueur, manque de respiration, respiration instable), ou encore à cause de la température (trembler de froid ou transpirer de chaleur).",
+          "audio": "ER2-FR-155"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause ?",
+          "audio": "ER2-FR-057",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER2-FR-058",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER2-FR-059",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ne pas oublier de récupérer la série de carte et de la ranger dans l’emplacement prévu à cet effet"
+        },
+        {
+          "text": "• OK"
+        }
+      ]
+    },
+    {
+      "title": "2.6_Conclusion_et devoir",
+      "blocks": [
+        {
+          "text": "Alors jusqu’à présent nous avons vu que les émotions ne sont finalement pas si simples. Elles sont faites de plusieurs parties.",
+          "audio": "ER2-FR-156",
+          "face": "smile"
+        },
+        {
+          "text": "Les émotions sont une combinaison de plusieurs choses : Il y a les expressions que tu fais avec ton visage, il y a les gestes et comportements que tu fais, il y a ce que tu dis et comment tu le dis - le ton de ta voix, il y a encore tes pensées et finalement les réactions de ton corps.",
+          "audio": "ER2-FR-157"
+        },
+        {
+          "text": "La plupart du temps toutes ces choses se passent au même temps et très vite. Parfois c’est tellement vite que tu ne te rends même pas compte que toutes ces choses se passent.",
+          "audio": "ER2-FR-158"
+        },
+        {
+          "text": "Nous avons tout le temps des émotions : Par exemple, on doit se lever très tôt le matin alors on se sent tristes",
+          "audio": "ER2-FR-159",
+          "face": "sad"
+        },
+        {
+          "text": "On mange quelque chose qu’on aime bien alors on se sent heureux",
+          "audio": "ER2-FR-160",
+          "face": "happy"
+        },
+        {
+          "text": "On n’arrive pas à trouver le cahier pour l’école alors on se sent fâché",
+          "audio": "ER2-FR-161",
+          "face": "angry"
+        },
+        {
+          "text": "On se rend compte qu’il neige dehors alors on est surpris",
+          "audio": "ER2-FR-162",
+          "face": "surprised"
+        },
+        {
+          "text": "et ainsi de suite…",
+          "audio": "ER2-FR-163"
+        },
+        {
+          "text": "Parmi toutes les émotions que nous avons vu pendant la session, quelques-unes sont très fortes, durent longtemps et marquent notre journée.",
+          "audio": "ER2-FR-164"
+        },
+        {
+          "text": "Mais la plupart de nos émotions sont faibles, passent rapidement, sont remplacées par d’autres émotions et à la fin de la journée, on ne se souvient même plus d’avoir eu ces émotions.",
+          "audio": "ER2-FR-165"
+        },
+        {
+          "text": "Aussi, selon l’émotion que tu as et la force de cette émotion, les différentes réactions que nous avons vu jusqu’à présent (expressions du visage, gestes avec le corps, ce que tu dis, comment tu le dis, ce que tu penses et comment ton corps réagit) peuvent être très fortes et donc il est plus facile de se rendre compte de ces réactions ou alors ces réactions peuvent être plus faibles et donc tu te rends moins facilement compte des réactions qui ont lieu dans ton corps.",
+          "audio": "ER2-FR-166"
+        },
+        {
+          "text": "Pendant les prochains jours, jusqu’à ce qu’on se revoie, je veux que tu fasses attention à ces réactions. Si quelque chose te rend heureux, essaye de remarquer les expressions que tu fais avec ton visage",
+          "audio": "ER2-FR-167",
+          "face": "smile"
+        },
+        {
+          "text": "Essaye de remarquer ce que tu fais avec ton corps pendant cet instant que tu es heureux.",
+          "audio": "ER2-FR-168",
+          "face": "smile"
+        },
+        {
+          "text": "Si tu es avec quelqu’un, essaye aussi de remarquer ce que tu dis à cette personne et comment tu le dis (le ton de ta voix).",
+          "audio": "ER2-FR-169"
+        },
+        {
+          "text": "Finalement, essaye de remarquer comment ton corps réagit. Est-ce que ton cœur bat plus vite ? Est-ce que tu transpires un peu ? Est-ce que tu sens un petit bouleversement dans ton ventre ?",
+          "audio": "ER2-FR-171"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Remarque aussi pendant combien de temps ces réactions durent. Est-ce qu’elles passent vite ou est-ce que tu restes avec ces réactions émotionnelles pendant longtemps ? (penser à ce qui a mené à l’émotion longtemps ou peu de temps, avoir le cœur qui bat fort pendant quelques minutes ou juste quelques secondes, avoir les sourcils froncés longtemps ou juste un petit instant, etc…)",
+          "audio": "ER2-FR-172"
+        },
+        {
+          "text": "Essaye de faire cet exercice pour plusieurs émotions (positives comme quand tu es heureux et négatives comme quand tu es fâché ou triste).",
+          "audio": "ER2-FR-173",
+          "face": "smile"
+        },
+        {
+          "text": "Essaye de remarquer la différence de réactions entre ces différentes émotions. Pour l’instant n’essaye pas de les changer, juste de les observer, juste te rendre compte de comment tu réagis.",
+          "audio": "ER2-FR-174",
+          "face": "smile"
+        },
+        {
+          "text": "Voilà, c’est tout pour aujourd’hui ! Bonnes émotions et à la prochaine !",
+          "audio": "ER2-FR-175",
+          "gesture": "wave goodbye",
+          "face": "happy"
+        }
+      ]
+    }
+  ]
+}

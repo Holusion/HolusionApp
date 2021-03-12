@@ -11,30 +11,42 @@ public enum TypeOfSession { Session1, Session2, Session3, Session4, Session5, Se
 public enum TypeOfStage { Introduction, Pause, Conclusion, Exercice1, Exercice2, Exercice3, Exercice4, Exercice5, Exercice6 };
 
 [Serializable]
+public struct Session {
+  public Stage[] stages;
+}
+
+[Serializable]
 public class Stage
 {
-    public Block[] block;
+    public string title;
+    public Block[] blocks;
 }
+
 [Serializable]
-public class Block
+public class Bubble
 {
     public string text;
     public string audio;
-    public List <Choices> choices = new List <Choices>();
-    //public List<string> emma = new List<string>();
-    //public List<string> choix = new List<string>();
-    //public List<int> score = new List<int>();
+    public override string ToString()
+    {
+        return base.ToString() + ": ["+audio+"]" + text;
+    }
 }
+
 [Serializable]
-public class Choices
+public class Block : Bubble
+{
+    public Choice[] choices = new Choice[0];
+}
+
+[Serializable]
+public class Choice
 {
     public string btn;
     public int score;
-    public List <Emma> res = new List <Emma>();
-}
-[Serializable]
-public class Emma
-{
-    public string text;
-    public string audio;
+    public Bubble[] res = new Bubble[0];
+    public override string ToString()
+    {
+        return base.ToString() + btn ;
+    }
 }

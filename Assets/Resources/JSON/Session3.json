@@ -1,0 +1,3121 @@
+{
+  "stages": [
+    {
+      "title": "3.1_Rappel_de l’apprentissage",
+      "blocks": [
+        {
+          "text": "Bonjour+",
+          "audio": "ER3-FR-001",
+          "gesture": "wave hello",
+          "face": "smile"
+        },
+        {
+          "text": "Comment vas-tu aujourd’hui?",
+          "audio": "ER3-FR-002"
+        },
+        {
+          "text": "Moi, je vais très bien !",
+          "audio": "ER3-FR-003",
+          "face": "happy"
+        },
+        {
+          "text": "La dernière fois que nous ne sommes rencontrés nous avons vu que les émotions sont faites de plusieurs parties.",
+          "audio": "ER3-FR-004",
+          "face": "happy"
+        },
+        {
+          "text": "Ce ne sont pas simplement les gestes que nous faisons avec notre visage ! Non !",
+          "audio": "ER3-FR-005",
+          "gesture": "wash teeth smile"
+        },
+        {
+          "text": "Nous avons vu qu’il y a plusieurs moyens de dire aux autres comment on se sent et de comprendre comment nous-mêmes on se sent.",
+          "audio": "ER3-FR-006",
+          "face": "happy"
+        },
+        {
+          "text": "Est-ce que tu te rappelles encore quelques-unes des façons qui peuvent nous aider  à comprendre nos émotions ?",
+          "audio": "ER3-FR-007",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien !",
+                  "audio": "ER3-FR-008",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yupi !",
+                  "audio": "ER3-FR-009",
+                  "gesture": "excited voice"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne te rappelles plus…",
+                  "audio": "ER3-FR-012"
+                },
+                {
+                  "text": "mmmh !",
+                  "audio": "ER3-FR-013",
+                  "gesture": "thinking voice"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER7-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Réponse inappropriée/mauvaise",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Euh... ce n’est pas tout à fait ça…",
+                  "audio": "ER3-FR-010"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne te rappelles plus…",
+                  "audio": "ER3-FR-012"
+                },
+                {
+                  "text": "mmmh !",
+                  "audio": "ER3-FR-013",
+                  "gesture": "thinking voice"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER7-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pour indiquer aux autres comment nous nous sentons nous pouvons faire des mouvements avec notre visage. Comme par exemple quand on est dégoutés on fait une tête comme ça :",
+          "audio": "ER3-FR-014",
+          "face": "disgusted"
+        },
+        {
+          "text": "Puis, il y a aussi les mouvements que nous faisons avec notre corps. Par exemple, si tu lèves tes poignets ça peut indiquer que tu es énervé ou fâché avec quelque chose.",
+          "audio": "ER3-FR-015",
+          "gesture": "fists raised"
+        },
+        {
+          "text": "Il y a encore ce que tu dis et comment tu le dis.",
+          "audio": "ER3-FR-016",
+          "face": "happy"
+        },
+        {
+          "text": "Par contre, si tu dis « ça m’énerve », je comprends que tu es fâché.",
+          "audio": "ER3-FR-018",
+          "gesture": "normal voice",
+          "face": "angry"
+        },
+        {
+          "text": "Et si tu dis « ça m’énerve !!! », je comprends que tu es très fâché, et pas juste un petit peu fâché!",
+          "audio": "ER3-FR-020",
+          "gesture": "very angry voice",
+          "face": "angry"
+        },
+        {
+          "text": "Ça peut donc même nous aider à comprendre au-delà de ce que la personne dit. Par exemple, si je dis : « Ça me fait plaisir !!! »ou « Ça me fait plaisir… » [sad voice]. Dans laquelle de ces deux situations est-ce que cela me fait vraiment plaisir ? La première ou la deuxième ?",
+          "audio": "ER3-FR-021",
+          "gesture": "very happy voice",
+          "choices": [
+            {
+              "btn": "La première",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, bien sûr !",
+                  "audio": "ER3-FR-022",
+                  "face": "happy"
+                },
+                {
+                  "text": "yay !",
+                  "audio": "ER3-FR-023",
+                  "gesture": "excited voice"
+                }
+              ]
+            },
+            {
+              "btn": "La deuxième",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas ça…",
+                  "audio": "ER3-FR-024",
+                  "face": "sad"
+                },
+                {
+                  "text": "Oh !",
+                  "audio": "ER3-FR-025",
+                  "gesture": "sad voice"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER3-FR-011"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Oh !",
+                  "audio": "ER3-FR-025",
+                  "gesture": "sad voice"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER3-FR-011"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "C’est dans la première. Parce que dans la première je dis que ça me fait plaisir et ça s’entend dans le ton de ma voix : « Ça me fait plaisir !!! ». Par contre, dans la deuxième, même si je dis que cela me fait plaisir, le ton de ma voix est triste : « Ça me fait plaisir… » [sad voice] Donc, ça ne m’a pas vraiment plu !",
+          "audio": "ER3-FR-027",
+          "gesture": "very happy voice"
+        },
+        {
+          "text": "Nous avons aussi vu la dernière fois qu’il y a des choses qui ne vont pas vraiment nous aider à comprendre comment les autres se sentent mais qui vont plutôt nous aider à comprendre comment nous, on se sent.",
+          "audio": "ER3-FR-030",
+          "face": "happy"
+        },
+        {
+          "text": "Ces choses ce sont nos pensées. Quand nous sommes tristes, nous avons plus de pensées négatives.",
+          "audio": "ER3-FR-031",
+          "face": "sad"
+        },
+        {
+          "text": "Quand nous sommes heureux, nous avons plus de pensées positives.",
+          "audio": "ER3-FR-032",
+          "face": "happy"
+        },
+        {
+          "text": "Aussi, la manière dont on pense aux choses va faire qu’on se sente plus ou moins tristes, plus ou moins heureux ou plus ou moins fâchés.",
+          "audio": "ER3-FR-033",
+          "face": "happy"
+        },
+        {
+          "text": "Finalement, nous avons vu qu’il y a des choses qui se passent dans notre corps quand nous avons des émotions.",
+          "audio": "ER3-FR-034",
+          "face": "happy"
+        },
+        {
+          "text": "Est-ce que tu te rappelles de quelques-unes des choses qui se passent dans notre corps quand nous avons des émotions ?",
+          "audio": "ER3-FR-035",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien !",
+                  "audio": "ER3-FR-008",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yupi !",
+                  "audio": "ER3-FR-009",
+                  "gesture": "excited voice"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Euh... ce n’est pas tout à fait ça…",
+                  "audio": "ER3-FR-010"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Réponse inappropriée/mauvaise",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne te rappelles plus…",
+                  "audio": "ER3-FR-012"
+                },
+                {
+                  "text": "mmmh !",
+                  "audio": "ER3-FR-013",
+                  "gesture": "thinking voice"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER7-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne te rappelles plus…",
+                  "audio": "ER3-FR-012"
+                },
+                {
+                  "text": "mmmh !",
+                  "audio": "ER3-FR-013",
+                  "gesture": "thinking voice"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER7-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Quand tu as des émotions, qu’elles soient positives ou négatives ton corps réagit. Tu peux sentir des changements de température (avoir chaud et transpirer ou avoir froid et trembler ou avoir la chair de poule), tu peux sentir que ta respiration change (respiration rapide, manque de respiration, ou respiration instable), tu peux sentir que ton cœur bat plus fort ou tu peux avoir des maux de ventre et des nausées.",
+          "audio": "ER3-FR-036",
+          "face": "disgusted"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause avant de continuer ?",
+          "audio": "ER3-FR-038",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER3-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER3-FR-040",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3.2_La_force des émotions",
+      "blocks": [
+        {
+          "text": "Exercice nécessitant un jeu de carte. Munissiez-vous de la carte 3.1 avant de commencer )"
+        },
+        {
+          "text": "Donc… toutes ces choses que nous avons vues jusqu’à présent (les gestes avec le visage, les mouvements avec le corps, ce que tu dis, comment tu le dis, ce que tu penses, et ce que tu ressens dans ton corps) sont toutes des choses normales ! Des choses qui sont là pour t’aider.",
+          "audio": "ER3-FR-041",
+          "gesture": "wash teeth smile"
+        },
+        {
+          "text": "Mais parfois nous avons l’impression que nos émotions ne nous aident pas trop !",
+          "audio": "ER3-FR-042",
+          "face": "sad"
+        },
+        {
+          "text": "Il y a des émotions qu’on préfèrerait ne pas avoir ! Ou du moins on aimerait que ces émotions soient moins fortes…",
+          "audio": "ER3-FR-043",
+          "face": "sad"
+        },
+        {
+          "text": "Est-ce que toi tu as des émotions que tu aimerais ne pas ressentir ou les ressentir moins souvent ?",
+          "audio": "ER3-FR-044",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, moi aussi j’ai des émotions comme ça, que je n’aime pas beaucoup. Il y a des émotions qui à la place de nous aider, on a l’impression que ça nous complique la vie.",
+                  "audio": "ER3-FR-045",
+                  "face": "sad"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu as de la chance !",
+                  "audio": "ER3-FR-046",
+                  "face": "happy"
+                },
+                {
+                  "text": "Moi j’ai parfois des émotions que je préférerai ne pas ressentir ou les ressentir moins souvent…",
+                  "audio": "ER3-FR-047",
+                  "face": "sad"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh",
+                  "audio": "ER3-FR-049",
+                  "gesture": "sad voice"
+                },
+                {
+                  "text": "Moi j’ai parfois des émotions que je préférerai ne pas ressentir ou les ressentir moins souvent…",
+                  "audio": "ER3-FR-047",
+                  "face": "sad"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Et… est-ce que ça t’arrive que les autres personnes te disent que tes émotions ne sont pas adéquates ou pas correctes ? Que tu devrais te sentir plus comme ça… ou moins comme ça… ?",
+          "audio": "ER3-FR-050",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, cela peut arriver…",
+                  "audio": "ER3-FR-051"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Mais ça peut arriver !",
+                  "audio": "ER3-FR-052"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Parfois les autres personnes ne comprennent pas nos émotions ou ne comprennent pas pourquoi nous nous comportons comme ça dans certaines situations.",
+          "audio": "ER3-FR-053",
+          "face": "sad"
+        },
+        {
+          "text": "Ça arrive parce ce que même si les émotions sont importantes et que, normalement elles nous aident à comprendre comment les autres se sentent et qu’elles nous permettent de dire aux autres comment nous on se sent – parfois nous perdons le contrôle de nos émotions.",
+          "audio": "ER3-FR-054",
+          "face": "sad"
+        },
+        {
+          "text": "Il y a plusieurs façons dont nous perdons le contrôle de nos émotions. Est-ce que tu connais quelques exemples ?",
+          "audio": "ER3-FR-055",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, par exemple !",
+                  "audio": "ER3-FR-056",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "mmmh !",
+                  "audio": "ER3-FR-013",
+                  "gesture": "thinking voice"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER7-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Réponse inappropriée/mauvaise",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Euh... ce n’est pas tout à fait ça…",
+                  "audio": "ER3-FR-010"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "mmmh !",
+                  "audio": "ER3-FR-013",
+                  "gesture": "thinking voice"
+                },
+                {
+                  "text": "Je vais t’aider !",
+                  "audio": "ER7-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Une des façons qu’on peut perdre le control de nos émotions est par leur force ! Parfois nos émotions sont trop fortes ! Mais parfois elles sont aussi trop faibles…",
+          "audio": "ER3-FR-057"
+        },
+        {
+          "text": "Faisons un petit jeu. Dans ce jeu je vais te dire des situations où d’autres enfants se sont retrouvés et comment ils se sont sentis. À chaque fois tu dois me dire si tu crois que leur émotion était plus forte que la normale, plus faible que la normale, ou normale. Mon assistante va te donner une image qui pourra t’aider à choisir.",
+          "audio": "ER3-FR-058",
+          "face": "happy",
+          "choices": [
+            {
+              "btn": "Continuer",
+              "score": 0,
+              "res": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 1/6"
+        },
+        {
+          "text": "Claire a mangé sa pomme. Elle était tellement heureuse qu’elle a sauté de bonheur pendant une heure.",
+          "audio": "ER3-FR-059"
+        },
+        {
+          "text": "Est-ce que cette émotion est plus forte que la normale, plus faible que la normale, ou normale ?",
+          "audio": "ER3-FR-037",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien !+",
+                  "audio": "ER3-FR-008",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023",
+                  "gesture": "excited voice"
+                },
+                {
+                  "text": "L’émotion était plus forte que la normale.",
+                  "audio": "ER3-FR-060"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas ça.+",
+                  "audio": "ER3-FR-061",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Sauter de bonheur pendant une heure pour avoir mangé sa pomme est une émotion plus forte que la normale.",
+                  "audio": "ER3-FR-062"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Sauter de bonheur pendant une heure pour avoir mangé sa pomme est une émotion plus forte que la normale.",
+                  "audio": "ER3-FR-062"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 2/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Marianne a marché sur du caca. Elle a trouvé ça dégoutant et elle a nettoyé ses chaussures.",
+          "audio": "ER3-FR-064"
+        },
+        {
+          "text": "Est-ce que cette émotion est plus forte que la normale, plus faible que la normale, ou normale ?",
+          "audio": "ER3-FR-037",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, c’est ça.+",
+                  "audio": "ER3-FR-065",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                },
+                {
+                  "text": "L’émotion est normale.",
+                  "audio": "ER3-FR-066"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correct.+",
+                  "audio": "ER3-FR-067",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Se sentir dégoutée après avoir marché sur du caca est une émotion normale.",
+                  "audio": "ER3-FR-068"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Se sentir dégoutée après avoir marché sur du caca est une émotion normale.",
+                  "audio": "ER3-FR-068"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 3/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Jeanne a reçu une mauvaise nouvelle de sa maman. Ça ne lui a rien fait.",
+          "audio": "ER3-FR-069"
+        },
+        {
+          "text": "Est-ce que cette émotion est plus forte que la normale, plus faible que la normale, ou normale ?",
+          "audio": "ER3-FR-037",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est juste !+",
+                  "audio": "ER3-FR-070",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                },
+                {
+                  "text": "L’émotion est plus faible que la normale.",
+                  "audio": "ER3-FR-071"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER3-FR-072",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Ne rien sentir après avoir reçu une mauvaise nouvelle est une émotion plus faible que la normale.",
+                  "audio": "ER3-FR-073"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Ne rien sentir après avoir reçu une mauvaise nouvelle est une émotion plus faible que la normale.",
+                  "audio": "ER3-FR-073"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 4/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Pendant que Patrick jouait à un jeu vidéo son petit frère a appuyé sur un bouton et Patrick a perdu le jeu. Patrick est devenu très fâché et il a frappé son petit frère.",
+          "audio": "ER3-FR-074"
+        },
+        {
+          "text": "Est-ce que cette émotion est plus forte que la normale, plus faible que la normale, ou normale ?",
+          "audio": "ER3-FR-037",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER3-FR-075",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                },
+                {
+                  "text": "L’émotion était plus forte que la normale.",
+                  "audio": "ER3-FR-060"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas ça.+",
+                  "audio": "ER3-FR-061",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Devenir tellement fâché au point de frapper son petit frère parce qu’il l’a fait perdre au jeu est une émotion plus forte que la normale.",
+                  "audio": "ER3-FR-076"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Devenir tellement fâché au point de frapper son petit frère parce qu’il l’a fait perdre au jeu est une émotion plus forte que la normale.",
+                  "audio": "ER3-FR-076"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 5/6"
+        },
+        {
+          "text": "Encore une autre situation.",
+          "audio": "ER3-FR-077"
+        },
+        {
+          "text": "Un inconnu avec un couteau dans sa main s’est approché de Jennifer alors qu’elle était toute seule. Elle n’a pas eu peur.",
+          "audio": "ER3-FR-078"
+        },
+        {
+          "text": "Est-ce que cette émotion est plus forte que la normale, plus faible que la normale, ou normale ?",
+          "audio": "ER3-FR-037",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, c’est ça.+",
+                  "audio": "ER3-FR-065",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                },
+                {
+                  "text": "L’émotion est plus faible que la normale.",
+                  "audio": "ER3-FR-071"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correcte.+",
+                  "audio": "ER3-FR-067",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Ne pas avoir peur d’un inconnu qui s’approche avec un couteau dans sa main est une émotion plus faible que la normale.",
+                  "audio": "ER3-FR-079"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Ne pas avoir peur d’un inconnu qui s’approche avec un couteau dans sa main est une émotion plus faible que la normale.",
+                  "audio": "ER3-FR-079"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 6/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Quand Michel a ouvert la boîte il a trouvé des choses qu’il n’avait jamais vues avant. Il était surpris.",
+          "audio": "ER3-FR-080"
+        },
+        {
+          "text": "Est-ce que cette émotion est plus forte que la normale, plus faible que la normale, ou normale ?",
+          "audio": "ER3-FR-037",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est juste !+",
+                  "audio": "ER3-FR-070",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                },
+                {
+                  "text": "L’émotion est normale.",
+                  "audio": "ER3-FR-066"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas ça.+",
+                  "audio": "ER3-FR-061",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Etre surpris en découvrant des choses qu’on n’a jamais vues avant est une émotion normale.",
+                  "audio": "ER3-FR-081"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Etre surpris en découvrant des choses qu’on n’a jamais vues avant est une émotion normale.",
+                  "audio": "ER3-FR-081"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Le problème avec les émotions qui sont plus fortes que la normale c’est qu’elles sont plus difficiles à contrôler et parfois on finit par dire ou faire des choses qu’on ne voulait pas. Quand cela arrive ça nous fait du mal et ça peut aussi faire du mal aux autres.",
+          "audio": "ER3-FR-082",
+          "face": "sad"
+        },
+        {
+          "text": "Par contre, le problème avec les émotions qui sont moins fortes que la normale c’est que soit cela peut nous mettre en danger, comme Jennifer qui n’a pas eu peur de l’inconnu qui s’est approché d’elle avec un couteau. Soit ça peut faire du mal aux autres comme quand Jeanne n’a rien senti quand sa maman lui a annoncé une mauvaise nouvelle.",
+          "audio": "ER3-FR-083"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause avant de continuer ?",
+          "audio": "ER3-FR-038",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER3-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER3-FR-040",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ne pas oublier de récupérer la série de carte et de la ranger dans l’emplacement prévu à cet effet"
+        },
+        {
+          "text": "• OK"
+        }
+      ]
+    },
+    {
+      "title": "3.3_La_durée des émotions",
+      "blocks": [
+        {
+          "text": "Exercice nécessitant un jeu de carte. Munissiez-vous de la carte 3.2 avant de commencer)"
+        },
+        {
+          "text": "• OK"
+        },
+        {
+          "text": "Un autre problème qu’on peut avoir avec les émotions peut être le temps qu’elles durent. Il y a des émotions qui sont normales mais qui durent trop longtemps et cela peut devenir embêtant. Par contre des émotions qui sont trop courtes quand normalement elles devraient durer plus longtemps peuvent aussi être un problème.",
+          "audio": "ER3-FR-084"
+        },
+        {
+          "text": "Dans le prochain petit jeu je vais encore une fois te raconter des situations qui sont arrivées à d’autres enfants.",
+          "audio": "ER3-FR-085",
+          "face": "happy"
+        },
+        {
+          "text": "Pour chaque situation je veux que tu me dises quelle devrait être la durée normale de l’émotion : quelques instants, quelques heures, ou plus qu’un jour.",
+          "audio": "ER3-FR-086",
+          "face": "happy"
+        },
+        {
+          "text": "Mon assistante va te donner une autre image qui pourra t’aider à choisir.",
+          "audio": "ER3-FR-087",
+          "face": "happy",
+          "choices": [
+            {
+              "btn": "Continuer",
+              "score": 0,
+              "res": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 1/6"
+        },
+        {
+          "text": "Voilà une première situation.",
+          "audio": "ER3-FR-088"
+        },
+        {
+          "text": "Sébastien n’a plus jamais revu son meilleur ami.",
+          "audio": "ER3-FR-089"
+        },
+        {
+          "text": "Quelle devrait être la durée normale de l’émotion ressentie ?",
+          "audio": "ER3-FR-090",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est juste !+",
+                  "audio": "ER3-FR-070",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER3-FR-072",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sébastien pourrait se sentir triste pendant plusieurs jours.",
+          "audio": "ER3-FR-091"
+        },
+        {
+          "text": "N° 2/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Patrick a entendu un bruit très fort dehors.",
+          "audio": "ER3-FR-099"
+        },
+        {
+          "text": "Quelle devrait être la durée normale de l’émotion ressentie ?",
+          "audio": "ER3-FR-090",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, c’est ça !+",
+                  "audio": "ER3-FR-065",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, pas vraiment.+",
+                  "audio": "ER3-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Patrick pourrait avoir peur pendant quelques instants.",
+          "audio": "ER3-FR-101"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Marie a finalement reçu la bonne nouvelle qu’elle attendait depuis longtemps.",
+          "audio": "ER3-FR-102"
+        },
+        {
+          "text": "Quelle devrait être la durée normale de l’émotion ressentie ?",
+          "audio": "ER3-FR-090",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER3-FR-075",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correcte.+",
+                  "audio": "ER3-FR-061",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Marie pourrait se sentir heureuse pendant quelques heures ou même plusieurs jours.",
+          "audio": "ER3-FR-103"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Vincent a trouvé son jouet préféré cassé par terre.",
+          "audio": "ER3-FR-104"
+        },
+        {
+          "text": "Quelle devrait être la durée normale de l’émotion ressentie ?",
+          "audio": "ER3-FR-090",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, c’est ça !+",
+                  "audio": "ER3-FR-065",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, pas vraiment.+",
+                  "audio": "ER3-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Vincent pourrait se sentir fâché pendant quelques heures ou même plusieurs jours.",
+          "audio": "ER3-FR-105"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Isabelle ne s’attendait pas à ce que Sophie soit encore là.",
+          "audio": "ER3-FR-106"
+        },
+        {
+          "text": "Quelle devrait être la durée normale de l’émotion ressentie ?",
+          "audio": "ER3-FR-090",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien !+",
+                  "audio": "ER3-FR-075",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correcte.+",
+                  "audio": "ER3-FR-067",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Isabelle pourrait être étonnée pendant quelques instants.",
+          "audio": "ER3-FR-107"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "En mangeant une pomme Valérie a vu qu’il y avait un gros ver dedans.",
+          "audio": "ER3-FR-108"
+        },
+        {
+          "text": "Quelle devrait être la durée normale de l’émotion ressentie ?",
+          "audio": "ER3-FR-090",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est juste !+",
+                  "audio": "ER3-FR-070",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER3-FR-072",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne veux peut-être pas me le dire…+",
+                  "audio": "ER3-FR-048",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Valérie pourrait se sentir dégoutée pendant quelques instants.",
+          "audio": "ER3-FR-109"
+        },
+        {
+          "text": "Les émotions qui durent trop longtemps peuvent poser des problèmes surtout quand elles sont négatives.",
+          "audio": "ER3-FR-110",
+          "face": "sad"
+        },
+        {
+          "text": "Il est normal de se sentir triste ou fâché de temps en temps. Mais quand nous sommes tristes ou fâchés pendant très longtemps cela peut devenir difficile pour nous.",
+          "audio": "ER3-FR-111",
+          "face": "sad"
+        },
+        {
+          "text": "Mais des émotions qui durent trop peu de temps peuvent elles aussi être problématiques.",
+          "audio": "ER3-FR-112",
+          "face": "sad"
+        },
+        {
+          "text": "Surtout si ce sont des émotions positives qu’on aimerait qu’elles durent pour plus de temps.",
+          "audio": "ER3-FR-113"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause avant de continuer ?",
+          "audio": "ER3-FR-038",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER3-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER3-FR-040",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ne pas oublier de récupérer la série de carte et de la ranger dans l’emplacement prévu à cet effet"
+        },
+        {
+          "text": "• OK"
+        }
+      ]
+    },
+    {
+      "title": "3.4_La_diversité des émotions",
+      "blocks": [
+        {
+          "text": "Exercice nécessitant un jeu de carte. Munissiez-vous de la carte 3.3 avant de commencer )"
+        },
+        {
+          "text": "OK"
+        },
+        {
+          "text": "Encore une autre chose qui peut être un problème avec les émotions c’est combien de fois on peut ressentir une émotion.",
+          "audio": "ER3-FR-114",
+          "face": "happy"
+        },
+        {
+          "text": "Tous les jours nous avons différentes choses qui nous arrivent. Quelques-unes de ces choses nous font sentir heureux,",
+          "audio": "ER3-FR-115",
+          "face": "happy"
+        },
+        {
+          "text": "d’autres nous font sentir tristes,",
+          "audio": "ER3-FR-116",
+          "face": "sad"
+        },
+        {
+          "text": "d’autres fâchés",
+          "audio": "ER3-FR-117",
+          "face": "angry"
+        },
+        {
+          "text": "Mais parfois tout nous fait sentir de la même façon et on se sent pour plusieurs situations différentes toujours tristes ou toujours fâchés. Mais pour la plupart des situations nous avons le choix entre différentes émotions.",
+          "audio": "ER3-FR-118",
+          "face": "happy"
+        },
+        {
+          "text": "Faisons un petit entraînement en forme de jeu. Dans ce jeu je vais te dire des situations dans lesquelles tu pourrais te retrouver. Je veux que pour chaque situation tu me dises deux émotions que tu pourrais ressentir : une émotion négative et une émotion positive et je veux aussi que tu me dises pourquoi tu pourrais ressentir cette émotion. Mon assistante va te donner une image pour te rappeler de choisir toujours deux émotions ! Une négative et une positive.",
+          "audio": "ER3-FR-119",
+          "face": "happy",
+          "choices": [
+            {
+              "btn": "Continuer",
+              "score": 0,
+              "res": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 1/7"
+        },
+        {
+          "text": "Voilà la première situation.",
+          "audio": "ER3-FR-120"
+        },
+        {
+          "text": "Tu as reçu un cadeau d’anniversaire qui ne te plaît pas.",
+          "audio": "ER3-FR-121"
+        },
+        {
+          "text": "Dis-moi une émotion négative et une positive que tu pourrais ressentir. Pense à différentes possibilités.",
+          "audio": "ER3-FR-122",
+          "choices": [
+            {
+              "btn": "Bonnes propositions",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, c’est ça !+",
+                  "audio": "ER3-FR-123",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion négative. Est-ce que tu pourrais aussi ressentir une émotion positive ?",
+                  "audio": "ER3-FR-124"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion positive. Est-ce que tu pourrais aussi ressentir une émotion négative ?",
+                  "audio": "ER3-FR-125"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion négative est correcte mais pas la positive+",
+                  "audio": "ER3-FR-127",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion positive est correcte mais pas la négative+",
+                  "audio": "ER3-FR-128",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaises réponses",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correct.+",
+                  "audio": "ER3-FR-067",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 2/7"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Il pleut et tu ne peux pas jouer dehors.",
+          "audio": "ER3-FR-130"
+        },
+        {
+          "text": "Dis-moi une émotion négative et une positive que tu pourrais ressentir. Pense à différentes possibilités.",
+          "audio": "ER3-FR-122",
+          "choices": [
+            {
+              "btn": "Bonnes propositions",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est juste.+",
+                  "audio": "ER3-FR-070",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion négative. Est-ce que tu pourrais aussi ressentir une émotion positive ?",
+                  "audio": "ER3-FR-124"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion positive. Est-ce que tu pourrais aussi ressentir une émotion négative ?",
+                  "audio": "ER3-FR-125"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion négative est correcte mais pas la positive+",
+                  "audio": "ER3-FR-127",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion positive est correcte mais pas la négative+",
+                  "audio": "ER3-FR-128",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaises réponses",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correct.+",
+                  "audio": "ER3-FR-067",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 3/7"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Tu as eu la meilleure note de la classe.",
+          "audio": "ER3-FR-132"
+        },
+        {
+          "text": "Dis-moi une émotion négative et une positive que tu pourrais ressentir. Pense à différentes possibilités.",
+          "audio": "ER3-FR-122",
+          "choices": [
+            {
+              "btn": "Bonnes propositions",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est juste.+",
+                  "audio": "ER3-FR-070",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion négative. Est-ce que tu pourrais aussi ressentir une émotion positive ?",
+                  "audio": "ER3-FR-124"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion positive. Est-ce que tu pourrais aussi ressentir une émotion négative ?",
+                  "audio": "ER3-FR-125"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion négative est correcte mais pas la positive+",
+                  "audio": "ER3-FR-127",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion positive est correcte mais pas la négative+",
+                  "audio": "ER3-FR-128",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaises réponses",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correct.+",
+                  "audio": "ER3-FR-067",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 4/7"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Tu vas devoir refaire la fiche de maths que tu n’as pas réussie.",
+          "audio": "ER3-FR-134"
+        },
+        {
+          "text": "Dis-moi une émotion négative et une positive que tu pourrais ressentir. Pense à différentes possibilités.",
+          "audio": "ER3-FR-088",
+          "choices": [
+            {
+              "btn": "Bonnes propositions",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, c’est ça !+",
+                  "audio": "ER3-FR-123",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion négative. Est-ce que tu pourrais aussi ressentir une émotion positive ?",
+                  "audio": "ER3-FR-124"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion positive. Est-ce que tu pourrais aussi ressentir une émotion négative ?",
+                  "audio": "ER3-FR-125"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion négative est correcte mais pas la positive+",
+                  "audio": "ER3-FR-127",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion positive est correcte mais pas la négative+",
+                  "audio": "ER3-FR-128",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaises réponses",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correct.+",
+                  "audio": "ER3-FR-067",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Par exemple, d’un point de vue négatif, tu te sens déçu parce que tu croyais que tu l’avais réussie. Mais d’un point de vue positif tu te sens motivé parce que cela va t’aider à mieux étudier la matière et être mieux préparé pour le test.",
+          "audio": "ER3-FR-135",
+          "face": "happy"
+        },
+        {
+          "text": "N° 5/7"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Tu as marché sur du caca.",
+          "audio": "ER3-FR-136"
+        },
+        {
+          "text": "Dis-moi une émotion négative et une positive que tu pourrais ressentir. Pense à différentes possibilités.",
+          "audio": "ER3-FR-122",
+          "choices": [
+            {
+              "btn": "Bonnes propositions",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est juste.+",
+                  "audio": "ER3-FR-070",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion négative. Est-ce que tu pourrais aussi ressentir une émotion positive ?",
+                  "audio": "ER3-FR-124"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion positive. Est-ce que tu pourrais aussi ressentir une émotion négative ?",
+                  "audio": "ER3-FR-125"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion négative est correcte mais pas la positive+",
+                  "audio": "ER3-FR-127",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion positive est correcte mais pas la négative+",
+                  "audio": "ER3-FR-128",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaises réponses",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correct.+",
+                  "audio": "ER3-FR-067",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 6/7"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Dis-moi une émotion négative et une positive que tu pourrais ressentir. Pense à différentes possibilités.",
+          "audio": "ER3-FR-122",
+          "choices": [
+            {
+              "btn": "Bonnes propositions",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, c’est ça !+",
+                  "audio": "ER3-FR-065",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion négative. Est-ce que tu pourrais aussi ressentir une émotion positive ?",
+                  "audio": "ER3-FR-124"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion positive. Est-ce que tu pourrais aussi ressentir une émotion négative ?",
+                  "audio": "ER3-FR-125"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion négative est correcte mais pas la positive+",
+                  "audio": "ER3-FR-127",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion positive est correcte mais pas la négative+",
+                  "audio": "ER3-FR-128",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaises réponses",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correct.+",
+                  "audio": "ER3-FR-067",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 7/7"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "On te fait une fête surprise pour ton anniversaire.",
+          "audio": "ER3-FR-140"
+        },
+        {
+          "text": "Dis-moi une émotion négative et une positive que tu pourrais ressentir. Pense à différentes possibilités.",
+          "audio": "ER3-FR-122",
+          "choices": [
+            {
+              "btn": "Bonnes propositions",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, c’est ça !+",
+                  "audio": "ER3-FR-123",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion négative. Est-ce que tu pourrais aussi ressentir une émotion positive ?",
+                  "audio": "ER3-FR-124"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (seule)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, ça c’est une émotion positive. Est-ce que tu pourrais aussi ressentir une émotion négative ?",
+                  "audio": "ER3-FR-125"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion - (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion négative est correcte mais pas la positive+",
+                  "audio": "ER3-FR-127",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Bonne émotion + (2ième mauvaise)",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Ce n’est pas tout à fait correct…",
+                  "audio": "ER3-FR-126"
+                },
+                {
+                  "text": "L’émotion positive est correcte mais pas la négative+",
+                  "audio": "ER3-FR-128",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaises réponses",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas correct.+",
+                  "audio": "ER3-FR-067",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause avant de continuer ?",
+          "audio": "ER3-FR-038",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER3-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER3-FR-040",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ne pas oublier de récupérer la série de carte et de la ranger dans l’emplacement prévu à cet effet"
+        },
+        {
+          "text": "• OK"
+        }
+      ]
+    },
+    {
+      "title": "3.5_L’adéquation_de l’émotion",
+      "blocks": [
+        {
+          "text": "Finalement, un autre problème avec les émotions est que parfois elles ne sont pas correctes pour certaines situations. Dans des situations positives, normalement les personnes ont aussi des émotions positives comme se sentir heureux, fier, confiant, etc.",
+          "audio": "ER3-FR-142",
+          "face": "happy"
+        },
+        {
+          "text": "De la même façon, dans des situations négatives, normalement les personnes ont aussi des émotions négatives comme se sentir triste, déprimé, fâché, angoissé, etc.",
+          "audio": "ER3-FR-143",
+          "face": "sad"
+        },
+        {
+          "text": "Quand ce n’est pas le cas, et que par exemple une personne se sent heureuse pendant une situation triste, cela peut poser des problèmes parce que les autres personnes ne comprennent pas pourquoi la personne se sent comme ça et peuvent se sentir fâchées.",
+          "audio": "ER3-FR-144",
+          "face": "angry"
+        },
+        {
+          "text": "Faisons un dernier jeu.",
+          "audio": "ER3-FR-145",
+          "face": "happy"
+        },
+        {
+          "text": "Dans ce jeu je vais encore une fois te dire des situations que d’autres enfants ont vécu et comment ils se sont sentis. Je veux que tu me dises à chaque fois si l’émotion est correcte pour la situation donnée. On y va ?",
+          "audio": "ER3-FR-146",
+          "choices": [
+            {
+              "btn": "Continuer",
+              "score": 0,
+              "res": [
+                {
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 1/6"
+        },
+        {
+          "text": "Voilà une première situation.",
+          "audio": "ER3-FR-088"
+        },
+        {
+          "text": "Lisa veut jouer dans la tablette mais sa sœur ne la laisse pas. Lisa se sent satisfaite.",
+          "audio": "ER3-FR-147"
+        },
+        {
+          "text": "Est-ce que cette émotion est correcte ?",
+          "audio": "ER3-FR-148",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, c’est ça !+",
+                  "audio": "ER3-FR-065",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER3-FR-072",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ce n’est pas une émotion correcte.",
+          "audio": "ER3-FR-149"
+        },
+        {
+          "text": "Lisa pourrait se sentir fâchée, triste, ennuyée, ou frustrée mais pas satisfaite.",
+          "audio": "ER3-FR-150"
+        },
+        {
+          "text": "N° 2/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Aurélie a découvert que son petit chaton était finalement une femelle. Elle était déçue.",
+          "audio": "ER3-FR-151"
+        },
+        {
+          "text": "Est-ce que cette émotion est correcte ?",
+          "audio": "ER3-FR-148",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est juste !+",
+                  "audio": "ER3-FR-070",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER3-FR-072",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "C’est une émotion correcte.",
+          "audio": "ER3-FR-151"
+        },
+        {
+          "text": "Aurélie aurait pu encore se sentir surprise, heureuse, ou fâchée.",
+          "audio": "ER3-FR-153"
+        },
+        {
+          "text": "N° 3/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Enzo se préparait pour faire une présentation importante devant toute l’école. Il était terrifié.",
+          "audio": "ER3-FR-154",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, très bien !+",
+                  "audio": "ER3-FR-008",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas juste.+",
+                  "audio": "ER3-FR-155",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "C’est une émotion correcte.",
+          "audio": "ER3-FR-151"
+        },
+        {
+          "text": "Enzo aurait pu encore se sentir effrayé, heureux ou excité.",
+          "audio": "ER3-FR-156"
+        },
+        {
+          "text": "N° 4/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Après avoir perdu le match de foot, Max s’est senti très heureux.",
+          "audio": "ER3-FR-157",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui, c’est ça !+",
+                  "audio": "ER3-FR-065",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, pas vraiment.+",
+                  "audio": "ER3-FR-100",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ce n’est pas une émotion correcte.",
+          "audio": "ER3-FR-149"
+        },
+        {
+          "text": "Max pourrait se sentir triste, déçu, énervé, ou surpris mais pas heureux.",
+          "audio": "ER3-FR-158"
+        },
+        {
+          "text": "N° 5/6"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "La sœur de Lara est très malade à l’hôpital. Lara se sent amusée.",
+          "audio": "ER3-FR-159",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "C’est juste !+",
+                  "audio": "ER3-FR-070",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas tout à fait ça.+",
+                  "audio": "ER3-FR-072",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "N° 6/6"
+        },
+        {
+          "text": "Ce n’est pas une émotion correcte.",
+          "audio": "ER3-FR-149"
+        },
+        {
+          "text": "Lara aurait pu se sentir triste, ennuyée, effrayée mais pas amusée.",
+          "audio": "ER3-FR-160"
+        },
+        {
+          "text": "Une autre situation.",
+          "audio": "ER3-FR-063"
+        },
+        {
+          "text": "Pendant qu’il se promenait en vélo Paul a trouvé une biche morte pleine d’insectes au tour. Il s’est senti déprimé.",
+          "audio": "ER3-FR-161",
+          "choices": [
+            {
+              "btn": "Bonne réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Oui ! Très bien !+",
+                  "audio": "ER3-FR-075",
+                  "face": "happy"
+                },
+                {
+                  "text": "Yay !",
+                  "audio": "ER3-FR-023"
+                }
+              ]
+            },
+            {
+              "btn": "Mauvaise réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Non, ce n’est pas juste.+",
+                  "audio": "ER3-FR-155",
+                  "face": "sad"
+                },
+                {
+                  "text": "Ooh !",
+                  "audio": "ER3-FR-049"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Absence de réponse",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Tu ne sais pas ?",
+                  "audio": "ER3-FR-026"
+                },
+                {
+                  "text": "Je vais t’aider.",
+                  "audio": "ER3-FR-011",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "C’est une émotion correcte.",
+          "audio": "ER3-FR-1512"
+        },
+        {
+          "text": "Paul aurait pu encore se sentir dégouté, angoissé ou épouvanté.",
+          "audio": "ER3-FR-162"
+        },
+        {
+          "text": "Est-ce que tu veux faire une petite pause avant de continuer ?",
+          "audio": "ER3-FR-038",
+          "choices": [
+            {
+              "btn": "Oui",
+              "score": 0,
+              "res": [
+                {
+                  "text": "On fait une toute petite pause. À tout de suite !",
+                  "audio": "ER3-FR-039",
+                  "face": "happy"
+                }
+              ]
+            },
+            {
+              "btn": "Non",
+              "score": 0,
+              "res": [
+                {
+                  "text": "Très bien, alors on continue.",
+                  "audio": "ER3-FR-040",
+                  "face": "happy"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3.6_Conclusion_et devoir",
+      "blocks": [
+        {
+          "text": "Alors aujourd’hui nous avons vu que même si les émotions sont très importantes et qu’elles nous aident la plupart du temps, il arrive parfois que nous n’ayons pas le contrôle de nos émotions. Il se peut aussi que nous finissions par avoir des émotions qu’on ne voulait pas. Qui nous font du mal ou qui font du mal aux autres.",
+          "audio": "ER3-FR-164",
+          "face": "sad"
+        },
+        {
+          "text": "Cela arrive parce ce que même si les émotions sont importantes, qu’elles nous aident à comprendre comment les autres se sentent et qu’elles nous aident aussi à dire aux autres comment nous nous sentons – parfois nous perdons le contrôle de nos émotions.",
+          "audio": "ER3-FR-165",
+          "face": "confused"
+        },
+        {
+          "text": "Il y a plusieurs façons dont nous perdons le contrôle de nos émotions. Il y a des émotions qui sont trop fortes et qui sont donc difficiles à contrôler. Dans ces cas-là nous pouvons dire ou faire des choses qu’on ne voulait pas.",
+          "audio": "ER3-FR-166",
+          "face": "sad"
+        },
+        {
+          "text": "Il y a aussi des émotions qui sont trop faibles. Cela peut nous mettre en danger ou rendre les autres au tour de nous tristes parce qu’ils voudraient qu’on ait des émotions plus fortes.",
+          "audio": "ER3-FR-167",
+          "face": "sad"
+        },
+        {
+          "text": "D’autres fois le problème n’est pas la force des émotions mais plutôt le temps qu’elles durent. Il y a des émotions qui durent très longtemps et qui deviennent embêtantes, surtout si ce sont des émotions négatives comme la tristesse ou la colère.",
+          "audio": "ER3-FR-168",
+          "face": "angry"
+        },
+        {
+          "text": "Il y a aussi au contraire, des émotions qui durent très peu de temps et qu’on aimerait qu’elles durent plus longtemps. Par exemple quand on voulait quelque chose et une fois qu’on l’a on se sent heureux !... mais ça passe vite.",
+          "audio": "ER3-FR-169",
+          "face": "sad"
+        },
+        {
+          "text": "D’autres fois encore le problème avec les émotions est que nous avons tout le temps le même type d’émotions. Par exemple, dans différentes situations nous avons toujours des émotions négatives. Or, les émotions sont très variées et pour presque chaque situation de la vie il y a différentes émotions que nous pouvons ressentir. Cela dépend de comment nous voyons les situations.",
+          "audio": "ER3-FR-170",
+          "face": "happy"
+        },
+        {
+          "text": "Finalement, un autre problème avec les émotions peut être que l’émotion ressentie n’est pas correcte pour la situation que nous vivons. Il y a des situations dans lesquelles nous pouvons ressentir plusieurs  émotions, oui ! Et même des émotions contradictoires comme sentir de la joie et de la tristesse au même temps. Mais toutes les émotions ne sont pas appropriées à toutes les situations. Il y a des situations où si nous avons certaines émotions les gens au tour de nous ne vont pas comprendre pourquoi et ça pourrait les rendre tristes",
+          "audio": "ER3-FR-171",
+          "face": "sad"
+        },
+        {
+          "text": "ou même fâchés",
+          "audio": "ER3-FR-172",
+          "face": "angry"
+        },
+        {
+          "text": "Dans les prochains jours, jusqu’à ce qu’on se revoie, je veux que tu essayes de remarquer ces problèmes avec les émotions. Chez toi et chez les autres. Essaye de remarquer quand tu as des émotions qui sont plus fortes ou plus faibles que ce que tu voudrais. Ou alors des émotions qui durent plus longtemps ou pas assez de temps que ce que tu aurais voulu. Remarque aussi avec quelle émotion tu réagis à une situation et puis pense à d’autres émotions que tu aurais pu avoir dans cette même situation. Remarque si ces émotions sont correctes ou pas et si elles te feraient sentir mieux ou pire.",
+          "audio": "ER3-FR-173"
+        },
+        {
+          "text": "Voilà ! C’est tout pour aujourd’hui ! À la prochaine !",
+          "audio": "ER3-FR-174",
+          "gesture": "wave hello",
+          "face": "smile"
+        }
+      ]
+    }
+  ]
+}
