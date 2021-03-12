@@ -7,6 +7,31 @@ using System.IO;
 using System.Linq;
 
 public delegate void OnClickCallBack(int count);
+
+class DropOutStack<T>
+{
+    private T[] items;
+    private int top = 0;
+    public DropOutStack(int capacity)
+    { 
+        items = new T[capacity];
+    }
+    public int Count {
+      get { return this.top; }
+    }
+    public void Push(T item)
+    {
+        items[top] = item;
+        top = (top + 1) % items.Length;
+    }
+    public T Pop()
+    {
+        top = (items.Length + top - 1) % items.Length;
+        return items[top];
+    }
+}
+
+
 public class TrainingPanel1 : PanelSettings
 {
     //panel to show when the session has ended
@@ -15,7 +40,7 @@ public class TrainingPanel1 : PanelSettings
     public int session=1;
     private int currentStage=0;
 
-    private Stack<Block> timeTravel = new Stack<Block>();
+    private DropOutStack<Block[]> timeTravel = new DropOutStack<Block[]>(10 /*max undo count*/);
     // text to display
     public Text emmaField;
 
@@ -85,11 +110,13 @@ public class TrainingPanel1 : PanelSettings
       ShowText(b.text);
       ShowButtons(b.choices, (int i)=>{
         IEnumerable<Block> next;
-        if(i < 0) {
-          next = blocks.Prepend(timeTravel.Pop());
+        timeTravel.Push(blocks);
+        if(i ==-1) {
+          timeTravel.Pop(); //un-push last blocks
+          next = timeTravel.Pop();
         }else if(i < b.choices.Length){
           next = blocks.Skip(1);
-          timeTravel.Push(blocks[0]);
+          timeTravel.Push(blocks);
           IEnumerable<Bubble> responses = b.choices[i].res;
           if(responses != null){
             foreach( Bubble r in responses){
@@ -100,9 +127,6 @@ public class TrainingPanel1 : PanelSettings
           Debug.LogWarning("SKip because"+i+">"+b.choices.Length);
           //Implement time travel for skip
           next = blocks.Skip(i-b.choices.Length);
-          for(int t=0; t < i-b.choices.Length; t++){
-            timeTravel.Push(blocks[t]);
-          }
         }
         Play(next.ToArray());
       });
