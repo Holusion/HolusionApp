@@ -3557,7 +3557,7 @@ MonoBehaviour:
   duration: 0.5
   panelWhenEnd: {fileID: 0}
   session: 1
-  emmaField: {fileID: 0}
+  emmaField: {fileID: 1891998032}
   emotionList: 
   buttonPREF: {fileID: 3527532016747674247, guid: 8c8e1184d984d7949b6452b9036ab7a5, type: 3}
   debugButtonPREF: {fileID: 8857358757705780059, guid: e2faead237c8a064e9f4fc933d5d5864, type: 3}
@@ -4245,6 +4245,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827875316}
   m_CullTransparentMesh: 1
+--- !u!114 &1891998032 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6883040602510036919, guid: a4403638e95441c4eb3eccb53c6b0c45, type: 3}
+  m_PrefabInstance: {fileID: 6716807106509457355}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1914647752 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6871470222460875981, guid: e5f833c7cbfabad4c8c0e0fd2d6efffe, type: 3}
